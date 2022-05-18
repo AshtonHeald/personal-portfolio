@@ -1,6 +1,16 @@
 @use "../abstracts/breakpoints" as bp;
 /* Modal Styles*/
 /* modal */
+.project-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.project-image {
+	margin: 0.75rem 0 4rem;
+	width: 80%;
+}
+
 .modal_container {
 	background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
 	bottom: 0;
