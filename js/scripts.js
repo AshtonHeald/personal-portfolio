@@ -140,7 +140,3 @@ window.onclick = function (event) {
 		}
 	}
 };
-
-window.onresize = () => {
-	location.reload();
-};
