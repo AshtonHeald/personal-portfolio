@@ -1,0 +1,22 @@
+@use "../abstracts/breakpoints" as bp;
+table {
+	width: 100%;
+	border-collapse: collapse;
+	th {
+		background-color: var(--accent);
+		font-weight: normal;
+	}
+	.no-border {
+		border-top: none;
+	}
+	th,
+	td {
+		padding: 0;
+		border: 1px solid;
+		padding: 0.75rem;
+		text-align: center;
+	}
+	td {
+		width: 50%;
+	}
+}

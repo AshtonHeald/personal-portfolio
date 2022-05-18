@@ -1,0 +1,69 @@
+@use "../abstracts/breakpoints" as bp;
+.project-btn {
+	position: relative;
+	.project-img {
+		display: block;
+		width: 100%;
+		/*	backface-visibility: hidden; */
+		border-radius: 1.2rem;
+		opacity: 1;
+		transition: var(--trans);
+	}
+	.overlay {
+		background: var(--overlay);
+		transition: var(--trans);
+		color: #fff;
+		border-radius: 1.2rem;
+		position: absolute;
+		top: 0;
+		display: grid;
+		place-content: center;
+		width: 100%;
+		height: 100%;
+		h4 {
+			color: var(--solid);
+			transition: var(--trans);
+		}
+		p {
+			opacity: 0;
+			transition: var(--trans);
+			font-weight: bold;
+		}
+		&:hover {
+			background: var(--overlay-alt);
+			transition: var(--trans);
+			h4 {
+				margin-bottom: 0.5rem;
+				transition: var(--trans);
+				@include bp.ss-3 {
+					margin-bottom: 1rem;
+				}
+			}
+			p {
+				opacity: 1;
+				transition: var(--trans);
+			}
+		}
+	}
+	@include bp.ss-3 {
+		flex: 0 0 49%;
+	}
+}
+
+.see-more {
+	text-align: right;
+	#see-more-links {
+		margin-left: auto;
+	}
+	#see-more-span {
+		margin: auto 0.75rem;
+	}
+	#see-more-links,
+	#see-more-span {
+		.see-more-link {
+			align-items: center;
+			display: inline-flex;
+			padding: 0.75rem 0;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+Color Pallettes
+- Light
+
+- rich black
+#0A0A0A
+hsl(0, 0%, 4%)
+- spanish grey
+#999999
+hsl(0, 0%, 60%)
+#EBEBEB - platinum
+#F5F5F5 - cultured
+#FFFFFF - white
+#FFB3DE - pastel pink
+- Dark
+#0A0A0A - rich black
+#23232E - raisin black
+#333333 - jet
+#FFFFFF - white
+#FFB3DE - pastel pink
+#5D5D5D - davys grey
+- Favorite Pinks
+#ff95d7 - Persian Pink
+#ffaadf - Orchid Crayola
+#f95794 - Violet
+

@@ -1,0 +1,33 @@
+[data-theme="dark"] {
+	/* colors */
+	--primary: hsl(120, 20%, 97%);
+	--secondary: hsl(0, 0%, 10%);
+	--tertiary: hsl(325, 75%, 75%);
+	/* ---------- ---------- ---------- ---------- ---------- */
+	--surface: hsl(0, 0%, 20%);
+	--accent: hsl(0, 0%, 30%);
+	--accent-alt: hsl(0, 0%, 17.5%);
+	/* Background ---------- ---------- ---------- ---------- */
+	--body: hsl(0, 0%, 4%);
+	--bg: hsl(0, 0%, 15%);
+	--bg-alt: hsl(0, 0%, 12.5%);
+	/* Overlays - ---------- ---------- ---------- ---------- */
+	--overlay: hsla(0, 0%, 4%, 70%);
+	--overlay-alt: hsla(0, 0%, 4%, 90%);
+	/* Shadows & filters --- ---------- ---------- ---------- */
+	--shadow: hsla(0, 0%, 4%, 0.25) 0px 4px 6px -2px,
+		hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+	--shadow-hover: hsla(0, 0%, 4%, 0.25) 0px 5px 7px -2px,
+		hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+	--pressed: hsla(0, 0%, 4%, 0.25) 0px 2px 4px -2px,
+		hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+	/* Filters -- ---------- ---------- ---------- ---------- */
+	--filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(283deg)
+		brightness(113%) contrast(101%);
+	--filter-link: invert(70%) sepia(9%) saturate(2108%) hue-rotate(280deg)
+		brightness(97%) contrast(93%);
+	--disabled: invert(30%) sepia(2%) saturate(0%) hue-rotate(140deg)
+		brightness(95%) contrast(91%);
+	/* Other ---- ---------- ---------- ---------- ---------- */
+	--canvas: block;
+}
