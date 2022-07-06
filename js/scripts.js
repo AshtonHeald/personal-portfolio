@@ -89,6 +89,13 @@ var project1 = new Glide("#project1", {
 		},
 	},
 });
+var project3 = new Glide("#project3", {
+	type: "slider",
+	autoplay: 5000,
+	gap: 30,
+	hoverpause: true,
+	perView: 1,
+});
 // ==================================================
 // Modals
 // ==================================================
@@ -115,6 +122,7 @@ for (i = 0; i < modal_btn_multi.length; i++) {
 		// !Eventualy change these to single function
 		// Project Sliders
 		project1.mount();
+		project3.mount();
 	};
 	// When the user clicks on <span> (x), close the modal
 	span_close_multi[i].onclick = function () {

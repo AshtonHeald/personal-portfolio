@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ashton Heald | Portfolio</title>
+	<title>Ashton Heald | Front-End Developer Portfolio</title>
 	<link rel="shortcut icon" type="image/jpg" href="img/ash-happy.png">
 	<meta name="description" content='Ashton Heald is a front-end web developer; this is a portfolio showcasing his work'>
 	<meta name="keywords" content="Ashton, Heald, front-end, web dev">

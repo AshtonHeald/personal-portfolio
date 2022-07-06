@@ -30,6 +30,16 @@
 							<li class="glide__slide">
 								<!-- Project 3 Button ========================= -->
 								<button class="project-btn open_modal" data-index="3">
+									<img class="project-img" src="img/projects/ethereum-purple-blue-600w.jpg" alt="keyboard-glow-pink">
+									<div class="overlay">
+										<h4 class="font-size-6">Ethereum</h4>
+										<p class="highlight">View Project</p>
+									</div>
+								</button>
+							</li>
+							<li class="glide__slide">
+								<!-- Project 4 Button ========================= -->
+								<button class="project-btn open_modal" data-index="4">
 									<img class="project-img" src="img/projects/keyboard-glow-pink-600w.jpg" alt="keyboard-glow-pink">
 									<div class="overlay">
 										<h4 class="font-size-6">Start</h4>
@@ -47,6 +57,7 @@
 						<button class="glide__bullet" data-glide-dir="=0"></button>
 						<button class="glide__bullet" data-glide-dir="=1"></button>
 						<button class="glide__bullet" data-glide-dir="=2"></button>
+						<button class="glide__bullet" data-glide-dir="=3"></button>
 					</div>
 				</div>
 				<?php include 'modals.html'; ?>
