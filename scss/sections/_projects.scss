@@ -28,6 +28,9 @@
 			margin-bottom: 1rem;
 			.project-titles {
 				text-align: center;
+				h3 {
+					color: var(--primary);
+				}
 			}
 		}
 		.description {
@@ -65,12 +68,14 @@
 			display: flex;
 			align-items: center;
 			i {
-				font-size: 2.5rem;
 				margin: 0 0.25rem;
 			}
 		}
 		.btn-group {
 			margin-right: 0.2rem;
+			i {
+				font-size: 1.6rem;
+			}
 		}
 	}
 }
@@ -89,6 +94,9 @@
 			align-items: center;
 			display: inline-flex;
 			padding: 0.75rem 0;
+			i {
+				margin-right: 0.5rem;
+			}
 		}
 	}
 }

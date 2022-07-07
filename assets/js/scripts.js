@@ -65,7 +65,7 @@ themeToggle.addEventListener("change", switchTheme, false);
 // ==================================================
 var projectGlide = new Glide("#project-glide", {
 	type: "slider",
-	//autoplay: 5000,
+	autoplay: 5000,
 	gap: 30,
 	hoverpause: true,
 	perView: 1,

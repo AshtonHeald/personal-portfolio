@@ -26,30 +26,16 @@
 						</ul>
 					</div>
 					<div class="glide__arrows" data-glide-el="controls">
-						<button class="glide__arrow glide__arrow--left" data-glide-dir="<"><img class="arrow" src="assets/img/icons/angle-left.svg" alt=""></button>
-						<button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img class="arrow" src="assets/img/icons/angle-right.svg" alt=""></button>
+						<button class="glide__arrow glide__arrow--left" data-glide-dir="<" title="Prev"><i class="fa-light fa-left"></i></button>
+						<button class="glide__arrow glide__arrow--right" data-glide-dir=">" title="Next"><i class="fa-light fa-right"></i></button>
 					</div>
 					<div class="glide__bullets" data-glide-el="controls[nav]">
-						<button class="glide__bullet" data-glide-dir="=0"></button>
-						<button class="glide__bullet" data-glide-dir="=1"></button>
-						<button class="glide__bullet" data-glide-dir="=2"></button>
-						<button class="glide__bullet" data-glide-dir="=3"></button>
+						<button class="glide__bullet" data-glide-dir="=0" title="Project 1"></button>
+						<button class="glide__bullet" data-glide-dir="=1" title="Project 2"></button>
+						<button class="glide__bullet" data-glide-dir="=2" title="Project 3"></button>
+						<button class="glide__bullet" data-glide-dir="=3" title="Project 4"></button>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="flex col see-more">
-			<p class="bold">See more cool projects on</p>
-			<div id="see-more-links" class="flex">
-				<a class="see-more-link link " href="https://codepen.io/AshtonHeald" target="_blank" rel="noopener noreferrer">
-					<img class="icon" src="assets/img/icons/links/codepen.svg" alt="codepen">
-					<span>CodePen</span>
-				</a>
-				<span id="see-more-span">&amp;</span>
-				<a class="see-more-link link " href="https://github.com/AshtonHeald" target=" _blank" rel="noopener noreferrer">
-					<img class="icon" src="assets/img/icons/links/github.svg" alt="github">
-					<span>Github</span>
-				</a>
 			</div>
 		</div>
 	</article>

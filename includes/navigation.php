@@ -6,7 +6,9 @@
 		<div id="nav-header">
 			<img id="avatar" class="df" src="assets/img/ash-happy.png" alt="ash-happy" />
 			<span class="bold">Front-End Developer</span>
-			<a href="https://www.linkedin.com/in/ashtonheald/" id="status" class="highlight" target="_blank" rel="noopener noreferrer">@ Looking for Work</a>
+			<a href="https://www.linkedin.com/in/ashtonheald/" id="status" class="highlight" target="_blank" rel="noopener noreferrer">
+				<span>@ Looking for Work</span>
+			</a>
 		</div>
 		<nav>
 			<ul class="flex nav-list">
@@ -24,21 +26,25 @@
 				</li>
 				<li class="">
 					<span class="nav-link">
-						<img id="light-theme-icon" class="theme-icon" src="assets/img/icons/nav/sun.svg" alt="sun">
+						<span id="light-theme-icon" class="theme-icon">
+							<i class="fa-solid fa-brightness"></i>
+						</span>
 						<div class="theme-switch-wrapper">
 							<label for="theme-btn">
 								<input type="checkbox" id="theme-btn">
-								<div class="slider-wrapper">
+								<div class="slider-wrapper" title="Toggle Theme">
 									<span class="theme-btn-slider"></span>
 								</div>
 							</label>
 						</div>
-						<img id="dark-theme-icon" class="theme-icon disabled" src="assets/img/icons/nav/moon.svg" alt="moon">
+						<span id="dark-theme-icon" class="theme-icon disabled">
+							<i class="fa-light fa-moon"></i>
+						</span>
 					</span>
 				</li>
 				<li class="flex menu-footer">
 					<span>Made with&nbsp;</span>
-					<img class="icon" src="assets/img/icons/nav/mug-hot.svg" alt="coffee">
+					<i class="fa-light fa-mug-hot"></i>
 				</li>
 			</ul>
 		</nav>

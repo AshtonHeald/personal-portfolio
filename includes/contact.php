@@ -13,24 +13,28 @@
 					<div class="menu-container">
 						<h3 class="h5">Find me elsewhere!</h3>
 						<ul class="contact-menu card">
-							<li id="email">
-								<a class="link-alt" href="mailto:ashtonheald@pm.me?subject=Portfolio Mail">
-									<img class="icon" src="assets/img/icons/links/envelope.svg" alt="envolope"><span>Email</span>
-								</a>
-							</li>
-							<li id="linkedin">
-								<a class="link-alt" href="https://www.linkedin.com/in/ashtonheald/" target="_blank" rel="noopener noreferrer">
-									<img class="icon" src="assets/img/icons/links/linkedin.svg" alt="linkedin"><span>LinkedIn</span>
-								</a>
-							</li>
-							<li id="polywork">
-								<a class="link-alt" href="https://timeline.ashthe.dev" target="_blank" rel="noopener noreferrer">
-									<img class="icon" src="assets/img/icons/links/polywork.svg" alt="polywork"><span>Polywork</span>
-								</a>
-							</li>
-							<li id="twitter">
+							<li>
 								<a class="link-alt" href="https://twitter.com/AshtonHeald" target="_blank" rel="noopener noreferrer">
-									<img class="icon" src="assets/img/icons/links/twitter.svg" alt="twitter"><span>Twitter</span>
+									<i class="fa-brands fa-twitter"></i>
+									<span>Twitter</span>
+								</a>
+							</li>
+							<li>
+								<a class="link-alt" href="https://www.linkedin.com/in/ashtonheald/" target="_blank" rel="noopener noreferrer">
+									<i class="fa-brands fa-linkedin-in"></i>
+									<span>LinkedIn</span>
+								</a>
+							</li>
+							<li>
+								<a class="link-alt" href="https://codepen.io/AshtonHeald" target="_blank" rel="noopener noreferrer">
+									<i class="fa-brands fa-codepen"></i>
+									<span>CodePen</span>
+								</a>
+							</li>
+							<li>
+								<a class="link-alt" href="https://github.com/AshtonHeald" target=" _blank" rel="noopener noreferrer">
+									<i class="fa-brands fa-github"></i>
+									<span>Github</span>
 								</a>
 							</li>
 						</ul>

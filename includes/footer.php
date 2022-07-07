@@ -5,10 +5,10 @@
 		<span class="seperator">&nbsp;|&nbsp;</span>
 		<div id="designed">
 			<span>Designed & Developed&nbsp;</span>
-			<span>by <a class="highlight" href="https://ashtonheald.dev">Ashton Heald</a></span>
+			<span>by <a class="highlight" href="https://ashthe.dev">Ashton Heald</a></span>
 		</div>
 	</div>
 	<div class="back-to-top">
-		<button class="link-alt" onclick="location.href='#home';" id="myBtn" title="Go to top"><img class="icon" src="assets/img/icons/arrow-alt-circle-up.svg" alt="top"></button>
+		<button class="link-alt" onclick="location.href='#home';" id="myBtn" title="Go to top"><i class="fa-light fa-square-up"></i></button>
 	</div>
 </footer>

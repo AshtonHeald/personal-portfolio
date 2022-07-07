@@ -7,7 +7,7 @@
 		<div class="home-mouse">
 			<a href="#about" data-scroll="">
 				<div class="arrow-down">
-					<img src="assets/img/icons/chevron-down.svg" alt="down">
+					<i class="fa-light fa-angle-down"></i>
 				</div>
 				<div class="mouse-shape">
 					<div class="mouse-wheel"></div>

@@ -1,15 +1,17 @@
-<div id="project2" class="project-container">
+<div class="project-container">
 	<div class="row">
 		<div class="col">
 			<div class="project-image">
-				<img src="assets/img/projects/project3/ethereum.webp" alt="test">
+				<img src="assets/img/projects/project2/menu-lg-light.webp" alt="test">
 			</div>
 		</div>
 		<div class="col">
 			<div class="project-header">
 				<div class="project-titles">
-					<h3 class="h6">Ethereum</h3>
-					<a href="https://start.ashthe.dev/ethereum.org" class="h5">start.ashthe.dev/ethereum.org</a>
+					<a href="https://ashtonheald.me" class="h5">
+						<h3 class="h6">Link Menu</h3>
+						<span>ashtonheald.me</span>
+					</a>
 				</div>
 			</div>
 			<div class="description">
@@ -35,8 +37,8 @@
 						<i class="fa-brands fa-js"></i>
 					</div>
 					<div class="btn-group">
-						<a href="" class="btn btn-sm"><i class="fa-solid fa-desktop"></i></a>
-						<a href="" class="btn btn-sm"><i class="fa-solid fa-laptop-code"></i></a>
+						<a href="https://ashtonheald.me" class="btn btn-sm" title="Live Demo"><i class="fa-solid fa-desktop"></i></a>
+						<a href="https://github.com/AshtonHeald/link-menu" target=" _blank" rel="noopener noreferrer" class="btn btn-sm" title="View Code"><i class="fa-solid fa-laptop-code"></i></a>
 					</div>
 				</div>
 			</div>

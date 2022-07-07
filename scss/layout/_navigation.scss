@@ -90,9 +90,9 @@ span.nav-link {
 	text-align: left;
 }
 .theme-icon {
-	height: 2rem;
-	width: 2rem;
-	filter: var(--filter);
+	i {
+		font-size: 2rem;
+	}
 }
 .disabled {
 	filter: var(--disabled);
@@ -130,8 +130,7 @@ span.nav-link {
 	transition: transform var(--trans);
 }
 #dark-theme-icon {
-	height: 1.8rem;
-	width: 1.8rem;
+	font-size: 1.8rem;
 }
 .menu-footer {
 	align-items: end;
@@ -141,11 +140,6 @@ span.nav-link {
 }
 .menu-footer span {
 	padding-left: 0.5rem;
-}
-.menu-footer img {
-	height: 2.5rem;
-	width: 2.5rem;
-	filter: var(--filter);
 }
 /* Navigation 
 =========================================================================== */

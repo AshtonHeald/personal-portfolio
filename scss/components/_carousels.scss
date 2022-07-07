@@ -18,6 +18,9 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	i {
+		font-size: 3rem;
+	}
 }
 .glide__arrow:focus {
 	outline: none;
@@ -31,10 +34,6 @@
 }
 .glide__arrow--disabled {
 	opacity: 0.33;
-}
-.arrow {
-	filter: var(--filter);
-	height: 3rem;
 }
 .glide__arrow:hover .arrow {
 	filter: var(--filter-link);

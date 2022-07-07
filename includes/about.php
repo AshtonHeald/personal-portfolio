@@ -25,12 +25,14 @@
 							</div>
 							<div class="info mb-4">
 								<b>Blog: </b>
-								<a class="highlight" href="https://dev.to/ashtonheald" target="_blank" rel="noopener noreferrer">dev.to/ashtonheald</a>
+								<a class="highlight" href="https://dev.to/ashtonheald" target="_blank" rel="noopener noreferrer">
+									<span>dev.to/ashtonheald</span>
+								</a>
 							</div>
 						</div>
 						<div class="btn-group" id="about-buttons">
-							<a class="btn about-button" href="ashtonheald-resume.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
-							<button class="btn about-button" onclick="location.href='#projects';">My Work</button>
+							<a class="btn about-button" title="View Resume" href="ashtonheald-resume.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
+							<button class="btn about-button" title="Scroll Down" onclick="location.href='#projects';">My Work</button>
 						</div>
 					</div>
 				</div>
