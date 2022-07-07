@@ -1,0 +1,102 @@
+@use "../abstracts/breakpoints" as *;
+/* Modal Styles*/
+/* modal */
+
+.modal_container {
+	background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+	bottom: 0;
+	cursor: pointer; /* Add a pointer on hover */
+	display: none; /* Hidden by default */
+	height: 100%; /* Full height (cover the whole page) */
+	left: 0;
+	place-items: center;
+	position: fixed; /* Sit on top of the page content */
+	right: 0;
+	top: 0;
+	width: 100%; /* Full width (cover the whole page) */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	.modal {
+		background: var(--bg-alt);
+		border-radius: 1.2rem;
+		box-shadow: var(--shadow);
+		cursor: initial;
+		padding: 1.5rem 2rem 2rem;
+		position: absolute;
+		width: 92%;
+		z-index: 3;
+		// ======================================================================
+		#about-modal-content {
+			font-size: 14px;
+		}
+		// ======================================================================
+		.close_modal {
+			position: absolute;
+			right: 1.8rem;
+			top: 1.8rem;
+			img {
+				height: 2.5rem;
+				width: 2.5rem;
+				filter: var(--filter);
+				&:hover {
+					filter: var(--filter-link);
+				}
+			}
+		}
+		// ======================================================================
+		.modal-content {
+			margin-top: 0.5rem;
+
+			// ----------------------------------------
+			h3 {
+				margin-bottom: 0.25rem;
+			}
+			p {
+				margin-bottom: 1rem;
+			}
+			.description-container {
+				ul {
+					margin-bottom: 1.2rem;
+					list-style: decimal;
+					margin-left: 2rem;
+				}
+			}
+			.technology-container {
+				border-left: solid 0.3rem var(--tertiary);
+				padding-left: 0.5rem;
+				margin-bottom: 1.5rem;
+				.project-technologies {
+					display: flex;
+					img {
+						margin: 0 0.25rem;
+					}
+				}
+				@include media-4 {
+					margin-bottom: 5.5rem;
+				}
+			}
+			@include media-3 {
+				display: flex;
+				justify-content: space-between;
+				.modal-column {
+					width: 48%;
+					&:last-of-type {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+					}
+				}
+			}
+			@include media-3 {
+				display: flex;
+				justify-content: space-between;
+				.modal-column {
+					width: 48%;
+				}
+			}
+		}
+		//========================================================================
+		@include media-5 {
+			width: 100rem;
+		}
+	}
+}

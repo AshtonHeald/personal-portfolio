@@ -1,0 +1,84 @@
+/* Glide Carousel Styles */
+.glide__container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0 4rem;
+}
+.glide__track {
+	margin: 0 auto;
+	width: 80%;
+}
+.glide__slide {
+	width: 100vw;
+}
+.glide__arrow {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.glide__arrow:focus {
+	outline: none;
+}
+.glide__arrow--left {
+	padding: 1rem 1.25rem 1rem 0.25rem;
+}
+.glide__arrow--right {
+	padding: 1rem 0.25rem 1rem 1.25rem;
+	right: 0;
+}
+.glide__arrow--disabled {
+	opacity: 0.33;
+}
+.arrow {
+	filter: var(--filter);
+	height: 3rem;
+}
+.glide__arrow:hover .arrow {
+	filter: var(--filter-link);
+}
+.glide__bullets {
+	bottom: -2.5rem;
+	display: flex;
+	left: 50%;
+	list-style: none;
+	position: absolute;
+	transform: translateX(-50%);
+}
+.glide__bullet {
+	background-color: var(--secondary);
+	border: 2px solid transparent;
+	border-radius: 50%;
+	box-shadow: var(--shadow);
+	cursor: pointer;
+	height: 1rem;
+	line-height: 0;
+	margin: 0 0.25em;
+	padding: 0;
+	width: 1rem;
+}
+.glide__bullet:focus {
+	outline: none;
+}
+.glide__bullet:hover {
+	/* border: 2px solid white; */
+	background-color: var(--tertiary);
+}
+.glide__bullet--active {
+	background-color: var(--tertiary);
+}
+.glide--dragging {
+	cursor: grabbing;
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
+}
+@media (min-width: 767.99px) {
+	.glide__track {
+		width: 90%;
+	}
+	.glide__track.modal-track {
+		width: 80%;
+	}
+}

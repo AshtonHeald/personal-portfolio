@@ -9,6 +9,6 @@
 		</div>
 	</div>
 	<div class="back-to-top">
-		<button class="link-alt" onclick="location.href='#home';" id="myBtn" title="Go to top"><img class="icon" src="img/icons/arrow-alt-circle-up.svg" alt="top"></button>
+		<button class="link-alt" onclick="location.href='#home';" id="myBtn" title="Go to top"><img class="icon" src="assets/img/icons/arrow-alt-circle-up.svg" alt="top"></button>
 	</div>
 </footer>

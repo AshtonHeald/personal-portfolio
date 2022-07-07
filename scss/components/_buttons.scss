@@ -1,0 +1,45 @@
+@use "../abstracts/breakpoints" as *;
+.btn-group {
+	display: flex;
+	.btn:nth-of-type(2) {
+		margin-left: 1rem;
+		background-color: var(--surface);
+		color: var(--primary);
+	}
+}
+
+.btn {
+	background-color: var(--tertiary);
+	border-radius: 9rem;
+	box-shadow: var(--shadow);
+	padding: 0.75rem;
+	text-align: center;
+	width: 50%;
+	color: var(--secondary);
+	&:hover {
+		box-shadow: var(--shadow-hover);
+	}
+	&:active {
+		box-shadow: var(--pressed);
+	}
+}
+.btn-sm {
+	max-width: 3.5rem;
+}
+.btn-md {
+	max-width: 15rem;
+}
+.btn-lg {
+	max-width: 24.5rem;
+}
+
+@include media-5 {
+	.back-to-top {
+		display: none;
+	}
+}
+button.btn {
+	margin-left: 1rem;
+	background-color: var(--surface);
+	color: var(--primary);
+}

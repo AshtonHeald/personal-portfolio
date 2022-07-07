@@ -1,0 +1,60 @@
+@use "../abstracts/breakpoints" as *;
+footer {
+	line-height: 1.2;
+	padding: 1.5rem;
+	position: relative;
+	text-align: center;
+	background-color: var(--bg);
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+		.seperator {
+			display: none;
+			@include media-2 {
+				display: block;
+			}
+		}
+		#designed {
+			display: flex;
+			flex-direction: column;
+			@include media-1 {
+				flex-direction: row;
+			}
+		}
+		@include media-2 {
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+	.back-to-top {
+		position: relative;
+		#myBtn {
+			bottom: 1.6rem;
+			height: 2.5rem;
+			position: absolute;
+			right: 0;
+			width: 2.5rem;
+			&:hover {
+				.icon {
+					filter: var(--filter-link);
+				}
+			}
+			@include media-1 {
+				bottom: 0.6rem;
+			}
+			@include media-2 {
+				right: 0;
+				bottom: -0.5rem;
+			}
+		}
+	}
+	@include media-1 {
+		text-align: left;
+	}
+	@include media-4 {
+		margin-left: 25rem;
+	}
+	@include media-5 {
+		margin-right: 25rem;
+	}
+}
