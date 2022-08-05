@@ -15,5 +15,5 @@
 		</div>
 	</div>
 	<input type="submit" value="Send" class="btn flex" title="Submit Form">
-	<input type="hidden" name="_next" value="http://localhost/www/portfolio/Responsive/thanks.html">
+	<input type="hidden" name="_next" value="https://ashthe.dev/thanks.php">
 </form>
