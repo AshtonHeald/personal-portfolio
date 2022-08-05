@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col">
 			<div class="project-image">
-				<img src="assets/img/projects/project2/menu-lg-light.webp" alt="test">
+				<img src="assets/img/projects/project2/link-menu.webp" alt="Link Menu">
 			</div>
 		</div>
 		<div class="col">
