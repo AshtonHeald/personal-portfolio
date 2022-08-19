@@ -31,7 +31,7 @@
 							</div>
 						</div>
 						<div class="btn-group" id="about-buttons">
-							<a class="btn about-button" title="View Resume" href="ashtonheald-resume.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
+							<a class="btn about-button" title="View Digital Resume" href="digital-resume.php">Resumé</a>
 							<button class="btn about-button" title="Scroll Down" onclick="location.href='#projects';">My Work</button>
 						</div>
 					</div>

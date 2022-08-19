@@ -7,7 +7,7 @@
 			<label for="email">Email</label>
 			<input type="email" id="email" name="email" placeholder="example@email.com" required>
 			<label for="subject">Subject</label>
-			<input type="text" id="subject" name="_subject" placeholder="reason for contact" required>
+			<input type="text" id="subject" name="_subject" placeholder="Reason for contact" required>
 		</div>
 		<div class="form-right">
 			<label for="message">Message</label>
