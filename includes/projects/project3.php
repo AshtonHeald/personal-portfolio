@@ -8,28 +8,18 @@
 		<div class="col">
 			<div class="project-header">
 				<div class="project-titles">
-					<a href="https://ashtonheald.me" class="h5">
-						<h3 class="h6">Link Menu</h3>
-						<span>ashtonheald.me</span>
+					<a href="https://ashtonheald.me">
+						<h4 class="h4">Link Menu</h3>
+						<span class="highlight">ashtonheald.me</span>
 					</a>
 				</div>
 			</div>
 			<div class="description">
-				<h3 class="h4">Description</h3>
+				<h5 class="h6">Description</h3>
 				<p>My profile menu of personal links across the web; it's all the rage!</p>
 			</div>
-			<!-- Design Issues
-			<div>
-				<h3 class="h4">Key Features</h3>
-				<ul>
-					<li>Responsive Layout & Design</li>
-					<li>Handling & Optimizing Images</li>
-					<li>Modals & Carousels</li>
-				</ul>
-			</div>
-			-->
 			<div class="container">
-				<h3 class="h4">Technologies</h3>
+				<h5 class="h6">Technologies</h3>
 				<div class="technology-container">
 					<div class="technology-icons">
 						<i class="fa-brands fa-html5"></i>

@@ -1,0 +1,22 @@
+#avatar {
+    background-image: url(../img/ash-happy.png);
+    background-position: center;
+    background-size: 123px;
+    border: 5px solid var(--color-accent);
+    border-radius: 50%;
+    display: block;
+    &.small {
+      height: 100px;
+      width: 100px;
+      background-size: 100px;
+    }
+    &.large {
+      height: 128px;
+      width: 128px;
+      background-size: 130px;
+    }
+    &:hover, &:focus{
+      background-image: url(../img/ash-smile.png);
+      border-color: var(--color-tertiary);
+    }
+  }

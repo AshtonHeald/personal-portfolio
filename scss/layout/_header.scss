@@ -1,0 +1,25 @@
+header {
+    padding: 20px;
+    div {
+        #avatar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &:first-of-type {
+            display: flex;
+            justify-content: center;
+        }
+        &:last-of-type {
+            h1 {
+                text-align: center;
+            }
+            p {
+                color: var(--color-primary-2);
+            }
+        }
+        a {
+            padding: 5px;
+            font-weight: 600;
+        }
+    }
+}

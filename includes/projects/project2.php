@@ -1,35 +1,26 @@
 <div class="project-container">
 	<div class="row">
 		<div class="col">
-			<div class="project-image">
-				<img src="assets/img/projects/project1/portfolio-lg-light.webp" alt="test">
-			</div>
+			<picture class="project-image">
+				<source srcset="assets/img/projects/project1/portfolio-dark.webp" media="(prefers-color-scheme: dark)">
+				<img src="assets/img/projects/project1/portfolio-light.webp">
+			</picture>
 		</div>
 		<div class="col">
 			<div class="project-header">
 				<div class="project-titles">
-					<a href="https://ashthe.dev" class="h5">
-						<h3 class="h6">Web Portfolio</h3>
-						<span>ashthe.dev</span>
+					<a href="https://ashthe.dev">
+						<h4 class="h4">Web Portfolio</h4>
+						<span class="highlight">ashthe.dev</span>
 					</a>
 				</div>
 			</div>
 			<div class="description">
-				<h3 class="h4">Description</h3>
+				<h5 class="h6">Description</h5>
 				<p>Personal web development portfolio showcasing some of my best projects!</p>
 			</div>
-			<!-- Design Issues
-			<div>
-				<h3 class="h4">Key Features</h3>
-				<ul>
-					<li>Responsive Layout & Design</li>
-					<li>Handling & Optimizing Images</li>
-					<li>Modals & Carousels</li>
-				</ul>
-			</div>
-			-->
 			<div class="container">
-				<h3 class="h4">Technologies</h3>
+				<h5 class="h6">Technologies</h5>
 				<div class="technology-container">
 					<div class="technology-icons">
 						<i class="fa-brands fa-html5"></i>

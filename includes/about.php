@@ -4,11 +4,11 @@
 		<!-- new container w/ background-img, margin left-right: auto; padding:3.2rem -->
 		<article id="about-container">
 			<h2 class="h3">About</h2>
-			<h3 class="h4 mb-2">Get to Know me</h3>
+			<h3 class="h5 mb-2">Get to Know me</h3>
 			<div id="about-content">
 				<div id="about-content-container">
 					<div id="about-content-column">
-						<h3 class="h5">Who am I?</h3>
+						<h4 class="h6 highlight">Who am I?</h4>
 						<p class="mb-4 border-bottom">I'm Ash, a front-end web developer, an introverted writer, and
 							an abstract thinker, but most importantly; I'm a
 							student of life. I build fully responsive, pixel-perfect, and user-friendly interfaces and
@@ -31,7 +31,7 @@
 							</div>
 						</div>
 						<div class="btn-group" id="about-buttons">
-							<a class="btn about-button" title="View Digital Resume" href="digital-resume.php">Resumé</a>
+							<a class="btn about-button" title="View Digital Resume" href="digital-resume">Resumé</a>
 							<button class="btn about-button" title="Scroll Down" onclick="location.href='#projects';">My Work</button>
 						</div>
 					</div>

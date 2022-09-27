@@ -8,14 +8,14 @@
 		<div class="col">
 			<div class="project-header">
 				<div class="project-titles">
-					<a href="https://start.ashthe.dev" class="h5">
-						<h3 class="h6">Start / Playground</h3>
-						<span>start.ashthe.dev</span>
+					<a href="https://start.ashthe.dev">
+						<h4 class="h4">Start / Playground</h4>
+						<span class="highlight">start.ashthe.dev</span>
 					</a>
 				</div>
 			</div>
 			<div class="description">
-				<h3 class="h4">Description</h3>
+				<h5 class="h6">Description</h3>
 				<p>My personal start page and code playground.</p>
 			</div>
 			<!-- Design Issues
@@ -29,7 +29,7 @@
 			</div>
 			-->
 			<div class="container">
-				<h3 class="h4">Technologies</h3>
+				<h5 class="h6">Technologies</h3>
 				<div class="technology-container">
 					<div class="technology-icons">
 						<i class="fa-brands fa-html5"></i>

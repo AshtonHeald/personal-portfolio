@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ashton Heald</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../assets/css/digital-resume.css">
-</head>
-
-<body>
-	<div id="container--main">
-		<a href="../digital-resume.php">&#x2190; Go Back</a>
-		<h1>Custom WordPress site for Optimal Detailing</h1>
-
-		<p></p>
-
-		<p>
-		</p>
-
-		<ul>
-			<li>Gathered content and Inspiration</li>
-			<li>Created mockups</li>
-			<li>Created a custom WordPress Theme</li>
-			<li>Published site with cPanel</li>
-		</ul>
+<div class="modal_container" data-index="1">
+	<div class="modal">
+		<div class="modal-header mb-2">
+			<h3 class="h5 bold">Redesign and Migration of the OkSRC Website</h3>
+			<button class="close_modal" data-index="1"><img src="../assets/img/icons/times.svg" alt="x"></button>
+		</div>
+		<div class="modal-content">
+			<p>The OkSRC (Oklahoma Society of Respiratory Care) is a non-profit organization located in Oklahoma City, OK.
+			</p>
+			<p>Worked with a team of 3 other developers & designers to design and build a wordpress theme to the
+				organizations liking, before migrating content from their existing wix site; allowing them to easily manage
+				content.
+			</p>
+			<ul>
+				<li>Assisted in building menu and implementing WP Bootstrap Navwalker</li>
+				<li>Added content to multiple pages</li>
+				<li>Added custom styles</li>
+				<li>Utilized version control with git</li>
+			</ul>
+		</div>
 	</div>
-</body>
+</div>
 
-</html>

@@ -1,60 +1,46 @@
 @use "../abstracts/breakpoints" as *;
 footer {
 	line-height: 1.2;
-	padding: 1.5rem;
+	padding: 15px;
 	position: relative;
 	text-align: center;
-	background-color: var(--bg);
+	background-color: var(--color-secondary-3);
 	.footer-container {
 		display: flex;
 		flex-direction: column;
-		.seperator {
-			display: none;
-			@include media-2 {
-				display: block;
-			}
-		}
 		#designed {
 			display: flex;
 			flex-direction: column;
 			@include media-1 {
 				flex-direction: row;
+				justify-content: center;
 			}
-		}
-		@include media-2 {
-			flex-direction: row;
-			justify-content: center;
 		}
 	}
 	.back-to-top {
 		position: relative;
 		#myBtn {
-			bottom: 1.8rem;
-			height: 2.5rem;
+			bottom: 8px;
+			height: 25px;
 			position: absolute;
 			right: 0;
-			width: 2.5rem;
-			&:hover {
-				.icon {
-					filter: var(--filter-link);
-				}
-			}
+			width: 25px;
 			@include media-1 {
-				bottom: 0.8rem;
-			}
-			@include media-2 {
 				right: 0;
-				bottom: -0.1rem;
+				bottom: -2px;
 			}
 		}
 	}
 	@include media-1 {
 		text-align: left;
 	}
+	@include media-3 {
+		height: 50px;
+	}
 	@include media-4 {
-		margin-left: 25rem;
+		margin-left: 256px;
 	}
 	@include media-5 {
-		margin-right: 25rem;
+		margin-right: 256px;
 	}
 }

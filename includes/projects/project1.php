@@ -8,19 +8,19 @@
 		<div class="col">
 			<div class="project-header">
 				<div class="project-titles">
-					<a href="https://start.ashthe.dev/ethereum.org" class="h5">
-						<h3 class="h6">Ethereum.org</h3>
-						<span>start.ashthe.dev/ethereum.org</span>
+					<a href="https://start.ashthe.dev/ethereum.org">
+						<h4 class="h4">Ethereum.org</h4>
+						<span class="highlight">start.ashthe.dev/ethereum.org</span>
 					</a>
 				</div>
 			</div>
 			<div class="description">
-				<h3 class="h4">Description</h3>
+				<h5 class="h6">Description</h3>
 				<p>Revamp of the front page of <a href="https://ethereum.org">ethereum.org</a> with layout and UI
 					fixes.</p>
 			</div>
 			<div class="container">
-				<h3 class="h4">Technologies</h3>
+				<h5 class="h6">Technologies</h3>
 				<div class="technology-container">
 					<div class="technology-icons">
 						<i class="fa-brands fa-html5"></i>

@@ -1,11 +1,15 @@
 <div class="modal_container" data-index="0">
 	<div class="modal">
-		<h3 class="h6 modal-title">About me</h3>
-		<h3 class="h5 modal-sub-title">More about moi!</h3>
-		<button class="close_modal" data-index="0"><img src="assets/img/icons/times.svg" alt="x"></button>
+		<div class="modal-header">
+			<div>
+				<h3 class="h4 modal-title">About</h3>
+				<h4 class="h6">The personal stuff</h4>
+			</div>
+			<button class="close_modal" data-index="0"><img src="assets/img/icons/times.svg" alt="x"></button>
+		</div>
 		<div id="about-modal-content">
 			<div class="timeline" id="timeline-container">
-				<h4 class="h4">Timeline</h4>
+				<h4 class="h6 highlight">Personal Timeline</h4>
 				<ul>
 					<li>1998 – Born Outside of OKC, OK </li>
 					<li>2004 – Discovered first computer </li>
@@ -18,7 +22,7 @@
 					<li>2021 – Re-building </li>
 					<li>2022 – Portfolio Goes Live </li>
 				</ul>
-				<span>To be continued</span>
+				<h6>To be continued</h6>
 			</div>
 			<div id="tables-container">
 				<div class="table-container">

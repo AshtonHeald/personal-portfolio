@@ -1,7 +1,7 @@
 <section id="projects" class="section">
 	<article>
 		<h2 class="h3">Projects</h2>
-		<h3 class="h4 mb-2">Showcasing some of my best work</h3>
+		<h3 class="h5 mb-2">Showcasing some of my best work</h3>
 		<div id="projects-container">
 			<div class="glide__container">
 				<div id="project-glide" class="glide">
@@ -26,8 +26,8 @@
 						</ul>
 					</div>
 					<div class="glide__arrows" data-glide-el="controls">
-						<button class="glide__arrow glide__arrow--left" data-glide-dir="<" title="Prev"><i class="fa-light fa-left"></i></button>
-						<button class="glide__arrow glide__arrow--right" data-glide-dir=">" title="Next"><i class="fa-light fa-right"></i></button>
+						<button class="glide__arrow glide__arrow--left" data-glide-dir="<" title="Prev"><i class="fa-sharp fa-solid fa-angle-left"></i></button>
+						<button class="glide__arrow glide__arrow--right" data-glide-dir=">" title="Next"><i class="fa-sharp fa-solid fa-angle-right"></i></button>
 					</div>
 					<div class="glide__bullets" data-glide-el="controls[nav]">
 						<button class="glide__bullet" data-glide-dir="=0" title="Project 1"></button>

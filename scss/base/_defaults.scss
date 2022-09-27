@@ -1,149 +1,105 @@
+@use "../abstracts/breakpoints" as *;
+
 html {
-	font-size: 10px; /*for using REM units*/
-	scroll-behavior: smooth;
+  line-height: 1.2;
+  scroll-behavior: smooth;
 }
 body {
-	background-color: var(--body);
-	color: var(--primary);
+  background-color: var(--color-secondary-4);
+  color: var(--color-primary);
 }
-section {
-	background-color: var(--bg);
-}
-section:nth-of-type(2n) {
-	background-color: var(--bg-alt);
-}
-canvas {
-	display: none;
-}
-section {
-	padding: 5rem 1.5rem;
-}
-
-.highlight,
-a.highlight:link,
-a.highlight:visited {
-	color: var(--tertiary);
-}
-a.highlight:hover,
-a.highlight:active,
-a.highlight:focus {
-	color: var(--tertiary);
-}
-.link {
-	color: var(--tertiary);
-}
-.link:hover,
-.link-alt:hover {
-	color: var(--tertiary);
-}
-a span {
-	display: inline-block;
-	position: relative;
-}
-a span:after {
-	content: "";
-	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: var(--tertiary);
-	transform-origin: bottom right;
-	transition: transform 0.25s ease-out;
-}
-
-a:hover span:after,
-a:focus span:after {
-	transform: scaleX(1);
-	transform-origin: bottom left;
-	color: var(--tertiary);
-}
-
-.icon {
-	filter: var(--filter);
-	height: 2.5rem;
-	width: 2.5rem;
-}
-a .icon {
-	margin-right: 0.5rem;
-}
-.bold {
-	font-weight: bold;
-}
-.disabled-text {
-	color: var(--accent);
-	align-items: center;
-	display: inline-flex;
-	padding: 0.75rem;
-	width: 12rem;
-	text-decoration: line-through;
-}
-.disabled-text:hover {
-	cursor: not-allowed;
-}
-.disabled-text .icon {
-	margin-right: 0.5rem;
-}
-
 img {
-	image-rendering: -webkit-optimize-contrast;
+  image-rendering: -webkit-optimize-contrast;
 }
 
-@media (min-width: 499.99px) {
-	section {
-		padding: 5rem 2rem;
-	}
+#resume i {
+  margin-right: 5px;
 }
-@media (min-width: 640px) {
-	section {
-		padding: 5rem 2.5rem;
-	}
+#resume {
+  #site-container {
+    background-color: var(--color-secondary);
+    max-width: 768px;
+    section {
+      padding: 20px;
+      &:first-of-type {
+        padding: 20px 15px;
+      }
+    }
+  }
 }
-@media (min-width: 767.99px) {
-	section {
-		padding: 5rem 3rem;
-	}
+#portfolio {
+  section {
+    background-color: var(--color-secondary-3);
+    padding: 50px 15px;
+    &:nth-of-type(2n) {
+      background-color: var(--color-secondary-2);
+    }
+  }
 }
-@media (min-width: 1023.99px) {
-	html {
-		line-height: 1.2;
-	}
-	section {
-		margin-left: 25rem;
-		padding: 2rem 3rem 3rem;
-	}
+
+@include media-1 {
+  #portfolio section {
+    padding: 50px 20px;
+  }
 }
-@media (min-width: 1279.99px) {
-	section {
-		margin-right: 25rem;
-	}
+@include media-2 {
+  #portfolio section {
+    padding: 5rem 2.5rem;
+  }
 }
-@media (min-width: 1599.99px) {
-	body {
-		display: grid;
-		place-content: center;
-		overflow: hidden;
-		height: 100vh;
-	}
-	canvas {
-		display: var(--canvas);
-		position: fixed;
-		z-index: -2;
-		height: 100vh;
-		width: 100vw;
-	}
-	#site-container {
-		height: 844px; /* rounded up 843.75*/
-		margin-bottom: auto;
-		max-width: 1500px;
-		overflow: scroll;
-		overflow-x: auto;
-		position: relative;
-		border: solid 1rem var(--secondary);
-		border-radius: 1.2rem;
-		box-shadow: var(--shadow);
-		scroll-behavior: smooth;
-		background-color: var(--secondary);
-	}
+@include media-3 {
+  #portfolio section {
+    padding: 50px 30px;
+  }
+  #resume {
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    height: 100vh;
+    #site-container {
+      margin: 10px 0;
+      max-width: 748px;
+      overflow: scroll;
+      overflow-x: auto;
+      position: relative;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      scroll-behavior: smooth;
+      padding: 10px;
+      border: 10px solid var(--color-secondary);
+      border-radius: 12px;
+    }
+  }
+}
+@include media-4 {
+  #portfolio section {
+    margin-left: 256px;
+    padding: 20px 30px 30px;
+  }
+}
+@include media-5 {
+  #portfolio section {
+    margin-right: 256px;
+  }
+}
+@include media-6 {
+  #portfolio {
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    height: 100vh;
+    #site-container {
+      height: 844px; /* rounded up 843.75*/
+      margin-bottom: auto;
+      max-width: 1500px;
+      overflow: scroll;
+      overflow-x: auto;
+      position: relative;
+      border: solid 10px var(--color-secondary);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      scroll-behavior: smooth;
+      background-color: var(--color-secondary);
+    }
+  }
 }

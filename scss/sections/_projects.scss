@@ -1,102 +1,104 @@
 @use "../abstracts/breakpoints" as *;
 // ===== Project Container ===== //
-.project-container {
-	justify-content: space-between;
-	padding-bottom: 0.5rem;
-	margin-top: 1rem;
-	@include media-3 {
-		flex-direction: row;
-	}
-	.row {
-		@include media-3 {
-			display: flex;
-			justify-content: space-between;
-		}
-	}
-	.col {
-		display: flex;
-		@include media-3 {
-			width: 58%;
-			&:nth-of-type(2) {
-				width: 40%;
-			}
-		}
-		.project-header {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			margin-bottom: 1rem;
-			.project-titles {
-				text-align: center;
-				h3 {
-					color: var(--primary);
-				}
-			}
-		}
-		.description {
-			margin-bottom: 1rem;
-		}
-		.project-image {
-			img {
-				width: 100%;
-				margin-bottom: 0.5rem;
-				@include media-3 {
-					margin: 0;
-				}
-			}
-		}
-		// ===== Rows ===== //
-		.container {
-			&:last-of-type {
-				align-items: end;
-				margin-bottom: 0.75rem;
-				margin-top: auto;
-			}
-			ul {
-				list-style: decimal;
-				margin-left: 2rem;
-			}
-		}
-	}
-	.technology-container {
-		display: flex;
-		justify-content: space-between;
-		.technology-icons {
-			border-left: solid 0.3rem var(--tertiary);
-			padding-left: 0.75rem;
-			margin-left: 0.2rem;
-			display: flex;
-			align-items: center;
-			i {
-				margin: 0 0.25rem;
-			}
-		}
-		.btn-group {
-			margin-right: 0.2rem;
-			i {
-				font-size: 1.6rem;
-			}
-		}
-	}
+#portfolio .project-container {
+  justify-content: space-between;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  @include media-3 {
+    flex-direction: row;
+  }
+  .row {
+    @include media-3 {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .col {
+    display: flex;
+    @include media-3 {
+      width: 58%;
+      &:nth-of-type(2) {
+        width: 40%;
+      }
+    }
+    .project-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      .project-titles {
+        text-align: center;
+        h3 {
+          color: var(--color-brand-1);
+        }
+      }
+    }
+    .description {
+      margin-bottom: 10px;
+    }
+    .project-image {
+      img {
+        width: 100%;
+        margin-bottom: 5px;
+        @include media-3 {
+          margin: 0;
+        }
+      }
+    }
+    // ===== Rows ===== //
+    .container {
+      &:last-of-type {
+        align-items: end;
+        margin-bottom: 8px;
+        margin-top: auto;
+      }
+      ul {
+        list-style: decimal;
+        margin-left: 20px;
+      }
+    }
+  }
+  .technology-container {
+    display: flex;
+    justify-content: space-between;
+    .technology-icons {
+      border-left: solid 3px var(--color-tertiary);
+      padding-left: 8px;
+      margin-left: 2px;
+      display: flex;
+      align-items: center;
+      height: 30px;
+      margin-top: 5px;
+      i {
+        margin: 0 3px;
+      }
+    }
+    .btn-group {
+      margin-right: 2px;
+      i {
+        font-size: 16px;
+      }
+    }
+  }
 }
 // ===== See More ===== //
 .see-more {
-	text-align: right;
-	#see-more-links {
-		margin-left: auto;
-	}
-	#see-more-span {
-		margin: auto 0.75rem;
-	}
-	#see-more-links,
-	#see-more-span {
-		.see-more-link {
-			align-items: center;
-			display: inline-flex;
-			padding: 0.75rem 0;
-			i {
-				margin-right: 0.5rem;
-			}
-		}
-	}
+  text-align: right;
+  #see-more-links {
+    margin-left: auto;
+  }
+  #see-more-span {
+    margin: auto 8px;
+  }
+  #see-more-links,
+  #see-more-span {
+    .see-more-link {
+      align-items: center;
+      display: inline-flex;
+      padding: 8px 0;
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
 }
