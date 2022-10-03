@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col">
 			<div class="project-image">
-				<img src="assets/img/projects/project3/ethereum.webp" alt="test">
+				<img src="assets/img/projects/ethereum.webp" alt="test">
 			</div>
 		</div>
 		<div class="col">

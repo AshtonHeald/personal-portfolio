@@ -1,9 +1,10 @@
 <div class="project-container">
 	<div class="row">
 		<div class="col">
-			<div class="project-image">
-				<img src="assets/img/projects/project2/link-menu.webp" alt="Link Menu">
-			</div>
+			<picture class="project-image">
+				<source srcset="assets/img/projects/bio-links-dark.webp" media="(prefers-color-scheme: dark)">
+				<img src="assets/img/projects/bio-links-light.webp">
+			</picture>
 		</div>
 		<div class="col">
 			<div class="project-header">

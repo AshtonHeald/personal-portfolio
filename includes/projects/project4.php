@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col">
 			<div class="project-image">
-				<img src="assets/img/projects/project4/coming-soon.webp" alt="test">
+				<img src="assets/img/projects/coming-soon.webp" alt="test">
 			</div>
 		</div>
 		<div class="col">

@@ -2,8 +2,8 @@
 	<div class="row">
 		<div class="col">
 			<picture class="project-image">
-				<source srcset="assets/img/projects/project1/portfolio-dark.webp" media="(prefers-color-scheme: dark)">
-				<img src="assets/img/projects/project1/portfolio-light.webp">
+				<source srcset="assets/img/projects/portfolio-dark.webp" media="(prefers-color-scheme: dark)">
+				<img src="assets/img/projects/portfolio-light.webp">
 			</picture>
 		</div>
 		<div class="col">

@@ -1,6 +1,4 @@
 @use "../abstracts/breakpoints" as *;
-/* Navigation 
-=========================================================================== */
 #portfolio {
   #navigation {
     height: 50px;
@@ -69,14 +67,12 @@
     margin: 12.5px 15px;
     margin-left: auto; /* This should & must go after margin */
     width: 25px;
-    background-image: url(../img/icons/nav/bars.svg);
+    background-image: url(../img/icons/bars.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     filter: var(--filter-color-primary);
   }
-
-
 
   #menu-toggle + #menu-toggle-button:hover,
   #menu-toggle + label:hover {
@@ -90,7 +86,7 @@
   #sidebar-avatar {
     font-family: "Noto Serif JP", serif;
   }
-  
+
   input:checked + .slider-wrapper .theme-btn-slider {
     transform: translateX(15px);
   }
@@ -115,7 +111,6 @@
         height: 100%;
       }
     }
-   
   }
   @include media-6 {
     #navigation {
@@ -128,16 +123,14 @@
     }
   }
 }
-/* Navigation 
-=========================================================================== */
 #resume {
   nav {
     ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      li{
-        a{
+      li {
+        a {
           padding: 5px;
         }
       }
