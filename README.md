@@ -1,5 +1,5 @@
-# Web Portfolio
-Personal web development portfolio showcasing some of my best projects!
+# Web Portfolio v1
+First iteration of my personal web development portfolio showcasing some of my best projects!
 ## Live Link (Hostinger: cPanel)
 - https://ashthe.dev/v1
 ## Technologies Used
