@@ -1,3 +1,5 @@
+// === Menu Toggle ======
+/*
 const menuBtn = document.querySelector("#menu-toggle");
 const element = document.querySelector("#toggle");
 const html = document.querySelector("#html");
@@ -15,15 +17,20 @@ function toggle() {
 	menuBtn.checked = false;
 	html.style.overflowY = "unset";
 }
-// ==================================================
-// Projects Slider
-// ==================================================
-var projectGlide = new Glide("#project-glide", {
-	type: "slider",
-	autoplay: 5000,
-	gap: 30,
-	hoverpause: true,
-	perView: 1,
-	breakpoints: {},
-});
-projectGlide.mount();
+*/
+// === Canvas Toggle ======
+document.getElementById("test").addEventListener("click", showHide);
+
+function showHide(e) {
+	if (e.target.type !== "checkbox") {
+		return;
+	}
+
+	var b = document.getElementById("snow");
+
+	if (e.target.checked) {
+		b.style.opacity = "0";
+	} else {
+		b.style.opacity = "1";
+	}
+}

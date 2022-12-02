@@ -5,52 +5,52 @@
 	height: 100vh;
 }
 .main {
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  background-image: url(../img/ash-blue-thanks.png);
-  background-position: bottom 50px center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  @include media-2 {
-	background-position: bottom 100px center;
-	background-size: 60%;
-	background-color: var(--color-secondary);
-	padding: 50px;
-	box-shadow: var(--shadow);
-	border-radius: 12px;
-	height: 425px;
-  }
-  div {
-    display: grid;
-    place-items: center;
-    span {
-      display: flex;
-      align-items: baseline;
-      h1 {
-        margin-right: 5px;
-		@include media-2 {
-			margin-right: 10px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-image: url(../img/ash-blue-thanks.png);
+	background-position: bottom 50px center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	@include media-2 {
+		background-position: bottom 100px center;
+		background-size: 60%;
+		background-color: var(--color-secondary);
+		padding: 50px;
+		box-shadow: var(--shadow);
+		border-radius: 12px;
+		height: 425px;
+	}
+	div {
+		display: grid;
+		place-items: center;
+		span {
+			display: flex;
+			align-items: baseline;
+			h1 {
+				margin-right: 5px;
+				@include media-2 {
+					margin-right: 10px;
+				}
+			}
 		}
-      }
-    }
-    a {
-      font-size: 20px;
-      display: flex;
-      align-items: baseline;
-      border: 2px solid var(--color-primary);
-      padding: 10px 25px;
-      border-radius: 8px;
-	  background-color: var(--color-secondary-surface);
-	  &:focus {
-		border-color: var(--color-tertiary);
-	  }
-      span {
-        margin: 0 5px;
-      }
-    }
-  }
+		a {
+			font-size: 20px;
+			display: flex;
+			align-items: baseline;
+			border: 2px solid var(--color-primary);
+			padding: 10px 25px;
+			border-radius: 8px;
+			background-color: var(--color-secondary-surface);
+			&:focus {
+				border-color: var(--color-tertiary);
+			}
+			span {
+				margin: 0 5px;
+			}
+		}
+	}
 }
 /*
 

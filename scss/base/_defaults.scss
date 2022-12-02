@@ -1,105 +1,30 @@
 @use "../abstracts/breakpoints" as *;
-
-html {
-  line-height: 1.2;
-  scroll-behavior: smooth;
+@use "theme" as *;
+*:focus {
+	outline: 2px solid $pink;
 }
-body {
-  background-color: var(--color-secondary-4);
-  color: var(--color-primary);
+input[type="checkbox"] {
+	accent-color: $pink;
 }
-img {
-  image-rendering: -webkit-optimize-contrast;
+main {
+	margin-top: 50px;
+	padding: 0 20px;
+	@include media-1 {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	@include media-2 {
+		max-width: 800px;
+	}
 }
-
-#resume i {
-  margin-right: 5px;
+section {
+	margin-bottom: 50px;
 }
-#resume {
-  #site-container {
-    background-color: var(--color-secondary);
-    max-width: 768px;
-    section {
-      padding: 20px;
-      &:first-of-type {
-        padding: 20px 15px;
-      }
-    }
-  }
-}
-#portfolio {
-  section {
-    background-color: var(--color-secondary-3);
-    padding: 50px 15px;
-    &:nth-of-type(2n) {
-      background-color: var(--color-secondary-2);
-    }
-  }
-}
-
-@include media-1 {
-  #portfolio section {
-    padding: 50px 20px;
-  }
-}
-@include media-2 {
-  #portfolio section {
-    padding: 5rem 2.5rem;
-  }
-}
-@include media-3 {
-  #portfolio section {
-    padding: 50px 30px;
-  }
-  #resume {
-    display: grid;
-    place-content: center;
-    overflow: hidden;
-    height: 100vh;
-    #site-container {
-      margin: 10px 0;
-      max-width: 748px;
-      overflow: scroll;
-      overflow-x: auto;
-      position: relative;
-      padding: 20px;
-      box-shadow: var(--shadow);
-      scroll-behavior: smooth;
-      padding: 10px;
-      border: 10px solid var(--color-secondary);
-      border-radius: 12px;
-    }
-  }
-}
-@include media-4 {
-  #portfolio section {
-    margin-left: 256px;
-    padding: 20px 30px 30px;
-  }
-}
-@include media-5 {
-  #portfolio section {
-    margin-right: 256px;
-  }
-}
-@include media-6 {
-  #portfolio {
-    display: grid;
-    place-content: center;
-    overflow: hidden;
-    height: 100vh;
-    #site-container {
-      height: 844px; /* rounded up 843.75*/
-      margin-bottom: auto;
-      max-width: 1500px;
-      overflow: scroll;
-      overflow-x: auto;
-      position: relative;
-      border: solid 10px var(--color-secondary);
-      border-radius: 12px;
-      box-shadow: var(--shadow);
-      scroll-behavior: smooth;
-      background-color: var(--color-secondary);
-    }
-  }
+canvas#snow {
+	top: 0;
+	left: 0;
+	z-index: -1;
+	position: fixed;
+	height: 100%;
+	width: 100%;
 }

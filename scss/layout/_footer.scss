@@ -1,46 +1,6 @@
 @use "../abstracts/breakpoints" as *;
 footer {
-	line-height: 1.2;
-	padding: 15px;
-	position: relative;
-	text-align: center;
-	background-color: var(--color-secondary-3);
-	.footer-container {
-		display: flex;
-		flex-direction: column;
-		#designed {
-			display: flex;
-			flex-direction: column;
-			@include media-1 {
-				flex-direction: row;
-				justify-content: center;
-			}
-		}
-	}
-	.back-to-top {
-		position: relative;
-		#myBtn {
-			bottom: 8px;
-			height: 25px;
-			position: absolute;
-			right: 0;
-			width: 25px;
-			@include media-1 {
-				right: 0;
-				bottom: -2px;
-			}
-		}
-	}
-	@include media-1 {
-		text-align: left;
-	}
-	@include media-3 {
-		height: 50px;
-	}
-	@include media-4 {
-		margin-left: 256px;
-	}
-	@include media-5 {
-		margin-right: 256px;
-	}
+	height: 50px;
+	display: grid;
+	place-items: center;
 }

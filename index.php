@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ashton Heald - Web Portfolio</title>
-	<meta name="description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
+	<meta name="description" content="I'm Ash, a front-end web developer, and this is my portfolio!">
 	<meta name="keywords" content="Ashton, Heald, front-end, web dev">
 	<meta name="author" content="Ashton Heald">
 	<!-- icons -->
@@ -21,14 +21,14 @@
 	<meta property="og:url" content="https://ashthe.dev/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Ashton Heald - Web Portfolio">
-	<meta property="og:description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
+	<meta property="og:description" content="I'm Ash, a front-end web developer, and this is my portfolio!">
 	<meta property="og:image" content="https://ashthe.dev/assets/img/meta-card.png">
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="ashthe.dev">
 	<meta property="twitter:url" content="https://ashthe.dev/">
 	<meta name="twitter:title" content="Ashton Heald - Web Portfolio">
-	<meta name="twitter:description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
+	<meta name="twitter:description" content="I'm Ash, a front-end web developer, and this is my portfolio!">
 	<meta name="twitter:image" content="https://ashthe.dev/assets/img/meta-card.png">
 	<!-- styles -->
 	<link rel="preload" as="image" href="assets/img/ash-smile.png">
@@ -37,21 +37,22 @@
 </head>
 
 <body id="portfolio">
+	<canvas id="snow"></canvas>
 	<div id="site-container">
 		<?php include 'includes/navigation.php'; ?>
 		<main>
 			<?php
-			include 'includes/home.php';
-			include 'includes/sidebar.php';
 			include 'includes/about.php';
+			include 'includes/skills.php';
 			include 'includes/projects.php';
 			include 'includes/contact.php';
 			include 'includes/footer.php';
 			?>
 		</main>
 	</div>
-	<script src="https://unpkg.com/@glidejs/glide@3.5.2/dist/glide.min.js"></script>
 	<script src="assets/js/modals.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+	<script src="assets/js/canvas.js"></script>
 	<script src="assets/js/scripts.js"></script>
 </body>
 

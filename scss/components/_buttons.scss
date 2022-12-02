@@ -1,51 +1,7 @@
-@use "../abstracts/breakpoints" as *;
-.btn-group {
-	display: flex;
-	.btn:first-of-type {
-		i {
-			color: var(--color-secondary);
-		}
-	}
-	.btn:nth-of-type(2) {
-		margin-left: 10px;
-		background-color: var(--color-secondary-surface);
-		color: var(--color-primary);
-	}
-}
-
+@use "../base/theme" as *;
 .btn {
-	background-color: var(--color-tertiary);
-	border-radius: 90px;
-	box-shadow: var(--shadow);
-	padding: 8px;
-	text-align: center;
-	width: 50%;
-	color: var(--color-secondary);
-	font-weight: 600;
-	&:hover {
-		box-shadow: var(--shadow-hover);
-	}
-	&:active {
-		box-shadow: var(--pressed);
-	}
-}
-.btn-sm {
-	width: 40px;
-}
-.btn-md {
-	max-width: 150px;
-}
-.btn-lg {
-	max-width: 245px;
-}
-
-@include media-5 {
-	.back-to-top {
-		display: none;
-	}
-}
-button.btn {
-	margin-left: 10px;
-	background-color: var(--color-secondary-surface);
-	color: var(--color-primary);
+	border-radius: 50px;
+	box-shadow: 3px 3px 0 $dim-gray;
+	background-color: $pink;
+	border: none;
 }
