@@ -1,0 +1,27 @@
+@use "../base/theme" as *;
+@use "../base/library" as *;
+
+.card {
+	border: $border;
+	border-radius: $border-radius;
+	background-color: $white;
+	.card-header {
+		border-bottom: $border;
+		background-color: $light-gray;
+		border-radius: $border-radius-top;
+		padding: 4px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.card-body {
+		padding: 8px 12px 12px;
+	}
+}
+#values {
+	.card-body {
+		display: flex;
+		ul {
+			width: 50%;
+		}
+	}
+}

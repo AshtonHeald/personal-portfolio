@@ -1,7 +1,52 @@
+@use "../abstracts/breakpoints" as *;
 @use "../base/theme" as *;
+@use "../base/library" as *;
 .btn {
+	background-color: $pink;
+	border: $border;
 	border-radius: 50px;
 	box-shadow: 3px 3px 0 $dim-gray;
-	background-color: $pink;
-	border: none;
+	font-weight: bold;
+	height: 33.8px;
+	line-height: 1.125;
+	padding: 8px 12px;
+	text-align: center;
+	display: grid;
+	place-items: center;
+	&:focus,
+	&:hover {
+		box-shadow: none;
+		outline: none;
+	}
+	&:active {
+		outline: 2px solid $pink;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
+.btn-group {
+	display: flex;
+}
+.btn-small {
+	background-color: #fbb1c5;
+	border: 2px solid #0a0a0a;
+	border-radius: 50px;
+	box-shadow: 2px 2px 0 dimgray;
+	display: grid;
+	font-size: small;
+	font-weight: bold;
+	padding: 4px 6px;
+	place-items: center;
+	&:focus,
+	&:hover {
+		box-shadow: none;
+		outline: none;
+	}
+	&:active {
+		outline: 2px solid $pink;
+	}
+	&:hover {
+		cursor: pointer;
+	}
 }

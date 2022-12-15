@@ -38,18 +38,16 @@
 
 <body id="portfolio">
 	<canvas id="snow"></canvas>
-	<div id="site-container">
-		<?php include 'includes/navigation.php'; ?>
-		<main>
-			<?php
-			include 'includes/about.php';
-			include 'includes/skills.php';
-			include 'includes/projects.php';
-			include 'includes/contact.php';
-			include 'includes/footer.php';
-			?>
-		</main>
-	</div>
+	<?php include 'includes/navigation.php'; ?>
+	<main>
+		<?php
+		include 'includes/about.php';
+		include 'includes/skills.php';
+		include 'includes/projects.php';
+		include 'includes/contact.php';
+		?>
+	</main>
+	<?php include 'includes/footer.php'; ?>
 	<script src="assets/js/modals.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
 	<script src="assets/js/canvas.js"></script>

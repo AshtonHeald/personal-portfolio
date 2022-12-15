@@ -1,32 +1,29 @@
-<div id="navigation">
-	<div id="navbar">
-		<a href="">Ash<span>The</span><span>Dev</span></a>
-		<nav>
-			<ul class="flex nav-list">
-				<li>
-					<a href="">About</a>
-				</li>
-				<li>
-					<a href="">Skills</a>
-				</li>
-				<li>
-					<a href="">Projects</a>
-				</li>
-				<li>
-					<a href="">Contact</a>
-				</li>
+<div id="navbar">
+	<div id="navigation">
+		<a id="logo" href="">Ash<span class="gray">The</span><span class="blue">Dev</span></a>
+		<input type="checkbox" id="menuBtn" name="menuBtn">
+		<label id="navBtn" class="text-small" for="menuBtn"></label>
+		<nav id="navMenu">
+			<ul id="listMenu" class="nav-list">
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
-		</nav>
-		<div>
-			<ul class="flex">
-				<li>
-					<a href="https://twitter.com/AshtonHeald">
-						<i class="fa-brands fa-twitter"></i>
-					</a>
-				</li>
+			<ul id="socialMenu" class="flex">
 				<li>
 					<a href="https://www.linkedin.com/in/ashtonheald/">
 						<i class="fa-brands fa-linkedin-in"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://uiuxdev.social/@ashthedev">
+						<i class="fa-brands fa-mastodon"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://hashnode.com/@AshTheDev">
+						<i class="fa-brands fa-hashnode"></i>
 					</a>
 				</li>
 				<li>
@@ -39,26 +36,11 @@
 						<i class="fa-brands fa-github"></i>
 					</a>
 				</li>
-				<li>
-					<a href="https://dev.to/ashtonheald">
-						<i class="fa-brands fa-dev"></i>
-					</a>
-				</li>
-				<li>
-					<a href="mailto:ashtonheald@pm.me?subject=Portfolio Contact">
-						<i class="fa-regular fa-envelope"></i>
-					</a>
-				</li>
 			</ul>
+		</nav>
+		<div id="canvasToggle">
+			<input type="checkbox" id="canvasBtn" name="canvasBtn">
+			<label class="text-small" for="canvasBtn">Toggle Snow</label>
 		</div>
 	</div>
-</div>
-<div id="test">
-	<input type="checkbox" id="horns" name="horns">
-	<label for="horns">Horns</label>
-</div>
-<!--
-<span>Let It Snow</span>
-<span>Brrr.. Cold</span>
---->
 </div>

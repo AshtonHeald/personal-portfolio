@@ -1,0 +1,16 @@
+@use "../abstracts/breakpoints" as *;
+.hobby {
+	display: grid;
+	place-items: center;
+	padding: 8px;
+	margin: 0 12px;
+	@include media-2 {
+		margin: 4px 0;
+	}
+	img {
+		width: 32px;
+	}
+	span {
+		font-size: small;
+	}
+}

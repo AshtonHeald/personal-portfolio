@@ -1,3 +1,4 @@
+@use "theme" as *;
 /* Singular Styles
 ========================= */
 /* text align */
@@ -30,6 +31,13 @@
 .d-flex {
 	display: flex;
 }
+.blue {
+	color: $blue;
+}
+.gray {
+	color: $gray-500;
+}
+$border: 2px solid $black;
 $border-radius: 12px;
 $border-radius-top: 12px 12px 0 0;
 $border-radius-bottom: 0 0 12px 12px;

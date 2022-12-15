@@ -1,8 +1,143 @@
 <section id="projects" class="section">
 	<article>
-		<h2 class="h3">Projects</h2>
+		<h2>Projects</h2>
 		<div id="projects-container">
-
+			<!-- ===== Project 5 ===== -->
+			<div class="project-container">
+				<div class="project-img">
+					<img src="assets/img/projects/ethereum.webp" alt="Ethereum">
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<article>
+							<p class="project-title">Ethereum - Front Page</p>
+							<p>Revamp of the front page of <a href="https://ethereum.org" draggable="true">ethereum.org</a> with layout and UI
+								fixes.</p>
+						</article>
+						<div class="card-footer">
+							<div class="built-with">
+								<ul>
+									<li>HTML,</li>
+									<li>Bootstrap,</li>
+									<li>Sass,</li>
+									<li>JS.</li>
+								</ul>
+							</div>
+							<div class="btn-group text-small">
+								<a class="btn" href=""><i class="fa-solid fa-code"></i><span>Demo</span></a>
+								<a class="btn" href=""><i class="fa-solid fa-laptop"></i></i> <span>Code</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ===== Project 4 ===== -->
+			<div class="project-container">
+				<div class="project-img">
+					<img src="assets/img/projects/coming-soon.webp" alt="Coming Soon">
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<article>
+							<p class="project-title">Pipsqueak Blog</p>
+							<p>Wordpress blog I built for my father.</p>
+						</article>
+						<div class="card-footer">
+							<div class="built-with">
+								<ul>
+									<li>CSS,</li>
+									<li>Wordpress.</li>
+								</ul>
+							</div>
+							<div class="btn-group text-small">
+								<a class="btn" href=""><i class="fa-solid fa-code"></i><span>Demo</span></a>
+								<a class="btn" href=""><i class="fa-solid fa-laptop"></i></i> <span>Code</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ===== Project 3 ===== -->
+			<div class="project-container">
+				<div class="project-img">
+					<img src="assets/img/projects/coming-soon.webp" alt="Coming Soon">
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<article>
+							<p class="project-title">Start / Playground</p>
+							<p>My personal start page and code playground.</p>
+						</article>
+						<div class="card-footer">
+							<div class="built-with">
+								<ul>
+									<li>Sass,</li>
+									<li>JS,</li>
+								</ul>
+							</div>
+							<div class="btn-group text-small">
+								<a class="btn" href=""><i class="fa-solid fa-code"></i><span>Demo</span></a>
+								<a class="btn" href=""><i class="fa-solid fa-laptop"></i></i> <span>Code</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ===== Project 2 ===== -->
+			<div class="project-container">
+				<div class="project-img">
+					<img src="assets/img/projects/bio-links.webp" alt="bio links">
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<article>
+							<p class="project-title">Bio Links</p>
+							<p>My profile menu of personal links across the web; it's all the rage!</p>
+						</article>
+						<div class="card-footer">
+							<div class="built-with">
+								<ul>
+									<li>Sass,</li>
+									<li>JS, </li>
+									<li>Api's.</li>
+								</ul>
+							</div>
+							<div class="btn-group text-small">
+								<a class="btn" href=""><i class="fa-solid fa-code"></i><span>Demo</span></a>
+								<a class="btn" href=""><i class="fa-solid fa-laptop"></i></i> <span>Code</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ===== Project 1 ===== -->
+			<div class="project-container">
+				<div class="project-img">
+					<img src="assets/img/projects/portfolio.webp" alt="portfolio v1">
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<article>
+							<p class="project-title">Portfolio v1</p>
+							<p>First iteration of my personal web development portfolio.</p>
+						</article>
+						<div class="card-footer">
+							<div class="built-with">
+								<ul>
+									<li>HTML,</li>
+									<li>Sass,</li>
+									<li>JS,</li>
+									<li>PHP</li>
+								</ul>
+							</div>
+							<div class="btn-group text-small">
+								<a class="btn" href=""><i class="fa-solid fa-code"></i><span>Demo</span></a>
+								<a class="btn" href=""><i class="fa-solid fa-laptop"></i></i> <span>Code</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</article>
 </section>

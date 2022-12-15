@@ -1,1 +1,41 @@
 @use "../abstracts/breakpoints" as *;
+#about {
+	display: flex;
+	flex-direction: column-reverse;
+	.btn-group {
+		justify-content: space-between;
+	}
+	.btn {
+		width: 48%;
+	}
+	h1 {
+		text-align: center;
+		@include media-1 {
+			text-align: left;
+		}
+	}
+	@include media-1 {
+		flex-direction: row;
+	}
+	aside {
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	article {
+		p {
+			&:last-of-type {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	@include media-1 {
+		article {
+			padding-right: 20px;
+		}
+	}
+	@include media-2 {
+		article {
+			padding-right: 40px;
+		}
+	}
+}

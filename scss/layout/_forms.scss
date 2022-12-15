@@ -8,18 +8,21 @@ form {
 	}
 	.button-container {
 		width: calc(100% - 3px);
+		.btn {
+			width: 48%;
+		}
 	}
 	input {
 		position: relative;
 	}
 	label {
-		position: absolute;
-		top: 0;
-		left: 0;
-		pointer-events: none;
-		transition: ease 0.25s;
 		color: $dim-gray;
 		font-style: italic;
+		left: 0;
+		pointer-events: none;
+		position: absolute;
+		top: 0;
+		transition: ease 0.25s;
 	}
 	input,
 	label,
@@ -28,18 +31,18 @@ form {
 	}
 	input,
 	textarea {
-		margin-bottom: 25px;
-		border: 2px solid $light-gray;
+		border: $border;
 		border-radius: $border-radius;
+		margin-bottom: 25px;
 		width: 100%;
 		&:focus,
 		&:valid {
 			~ label {
-				top: -28px;
-				left: 0;
-				font-weight: 600;
 				color: $black;
 				font-style: normal;
+				font-weight: 600;
+				left: 0;
+				top: -28px;
 				transition: ease 0.25s;
 			}
 		}

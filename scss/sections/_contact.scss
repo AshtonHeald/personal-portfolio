@@ -1,1 +1,27 @@
 @use "../abstracts/breakpoints" as *;
+.contact-columns {
+	display: flex;
+	flex-direction: column;
+	.contact-column-1 {
+		margin-bottom: 25px;
+	}
+	@include media-1 {
+		flex-direction: row;
+		.contact-column-1 {
+			margin-bottom: 0;
+			width: 48%;
+		}
+		.contact-column-2 {
+			margin-left: auto;
+			width: 48%;
+		}
+	}
+	@include media-2 {
+		.contact-column-1 {
+			width: 61%;
+		}
+		.contact-column-2 {
+			width: 35%;
+		}
+	}
+}

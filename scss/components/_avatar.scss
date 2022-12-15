@@ -1,0 +1,35 @@
+@use "../abstracts/breakpoints" as *;
+@use "../base/theme" as *;
+@use "../base/library" as *;
+#ashContainer {
+	--size: 150px;
+	border: $border;
+	border-radius: 50%;
+	background-color: $blue;
+	background-image: url("../../assets/img/ash-blue.png");
+	background-position: -50px -24px;
+	background-repeat: no-repeat;
+	background-size: 175%;
+	display: block;
+	height: var(--size);
+	width: var(--size);
+	@include media-1 {
+		--size: 230px;
+	}
+	@include media-2 {
+		--size: 240px;
+	}
+	@include media-1 {
+		background-position: -56px bottom;
+		background-size: 155%;
+		border-radius: 50% 50%/33% 33% 0% 0%;
+		height: calc(var(--size) * 1.4);
+		@include media-2 {
+			background-position: -60px bottom;
+		}
+	}
+	img {
+		position: relative;
+		width: 100%;
+	}
+}

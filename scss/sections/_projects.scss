@@ -1,1 +1,85 @@
 @use "../abstracts/breakpoints" as *;
+@use "../base/theme" as *;
+@use "../base/library" as *;
+.project-container {
+	margin-bottom: 60px;
+	justify-content: space-between;
+	.card-body {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+	.btn-group {
+		.btn {
+			padding: 8px;
+			&:first-of-type {
+				margin-right: 10px;
+			}
+			i {
+				//font-size: ;
+				display: grid;
+				place-items: center;
+			}
+			span {
+				display: none;
+			}
+			@include media-1 {
+				padding: 8px 12px;
+				width: 80px;
+				span {
+					display: block;
+				}
+				i {
+					display: none;
+				}
+			}
+		}
+	}
+	@include media-2 {
+		display: flex;
+		margin-bottom: 25px;
+		.project-img {
+			width: 43%;
+			margin-bottom: 0;
+		}
+		.card {
+			width: 54%;
+			margin-bottom: 0;
+		}
+	}
+}
+.project-title {
+	font-weight: bold;
+	font-size: 20px;
+}
+.project-img {
+	margin-bottom: 20px;
+	img {
+		width: 100%;
+		display: block;
+		border-radius: $border-radius;
+		border: $border;
+	}
+}
+.card-footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+}
+.built-with {
+	display: grid;
+	place-items: center;
+	font-size: small;
+	flex-wrap: wrap;
+	color: $gray-500;
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			padding: 0 2px;
+		}
+	}
+}

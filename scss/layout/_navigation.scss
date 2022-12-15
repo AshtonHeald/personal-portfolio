@@ -1,21 +1,157 @@
 @use "../abstracts/breakpoints" as *;
-#navigation {
+@use "../base/theme" as *;
+#navbar {
+	background-color: $white;
+	border-bottom: 2px solid $black;
+	display: grid;
 	height: 50px;
+	place-items: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 2;
-}
-
-nav {
-	ul {
-		display: flex;
-		flex-direction: column;
+	user-select: none;
+	@include media-1 {
+		height: 60px;
 	}
 }
-#test {
-	display: grid;
+#navigation {
+	max-width: 1280px;
+	width: 100%;
+	@include media-2 {
+		display: flex;
+		position: relative;
+	}
+}
+#logo {
+	display: block;
+	margin: 7px 15px 13px;
+	position: absolute;
+	top: 0;
+	width: auto;
+	@include media-1 {
+		margin: 12px 15px 18px;
+	}
+}
+#navMenu {
+	display: none;
+}
+/* When the checkbox is ticked, the main navigation will display */
+#menuBtn {
+	display: none;
+	&:checked ~ #navMenu {
+		display: grid;
+	}
+	&:checked ~ #navBtn {
+		background-image: url(../../assets/img/xmark-solid.svg);
+	}
+}
+#navBtn {
+	background-image: url(../../assets/img/bars-solid.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 22px;
+	position: absolute;
+	right: 18px;
+	top: 13px;
+	width: 22px;
+	z-index: 3;
+	cursor: pointer;
+	@include media-1 {
+		top: 18px;
+	}
+	@include media-2 {
+		display: none;
+	}
+}
+#navMenu {
+	border-bottom: 2px solid $black;
+	background: transparent;
+	background-color: transparent;
+	backdrop-filter: blur(8px);
+	height: 220px;
+	padding: 8px;
 	place-items: center;
+	position: fixed;
+	text-align: center;
+	top: 50px;
+	width: 100%;
+	z-index: 2;
+	#listMenu {
+		li a {
+			display: block;
+			padding: 6px;
+			width: 120px;
+		}
+	}
+	#socialMenu {
+		display: flex;
+		justify-content: space-between;
+		width: 180px;
+		li a {
+			display: grid;
+			height: 25px;
+			place-items: center;
+			width: 25px;
+			i {
+				font-size: 22px;
+			}
+		}
+	}
+	@include media-1 {
+		top: 60px;
+	}
+	@include media-2 {
+		background: none;
+		backdrop-filter: none;
+		display: flex;
+		height: 60px;
+		position: relative;
+		top: 0;
+		#listMenu {
+			display: flex;
+			left: 0;
+			margin-left: auto;
+			margin-right: auto;
+			position: absolute;
+			right: 0;
+			width: 330px;
+			li a {
+				padding: 6px 10px;
+				width: auto;
+			}
+		}
+		#socialMenu {
+			margin: 15px;
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+#canvasToggle {
+	border-right: 2px solid;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+	background-color: $pink;
+	display: grid;
+	padding: 2px 4px;
+	place-items: center;
+	position: absolute;
+	right: 0;
+	top: 50px;
 	z-index: 4;
-	position: relative;
+	input {
+		display: none;
+	}
+	label {
+		cursor: pointer;
+		padding: 2px 5px 2px 4px;
+	}
+	@include media-1 {
+		top: 60px;
+	}
+	@include media-2 {
+		right: 15px;
+	}
 }
