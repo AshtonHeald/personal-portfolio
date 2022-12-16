@@ -1,5 +1,3 @@
-// === Menu Toggle ======
-
 // === Canvas Toggle ======
 document.getElementById("canvasToggle").addEventListener("click", showHide);
 

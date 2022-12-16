@@ -6,6 +6,12 @@
 html {
 	scroll-behavior: smooth;
 }
+h1 {
+	margin: 15px 0;
+}
+h2 {
+	margin: 15px 0 25px;
+}
 body {
 	padding-top: 50px;
 	@include media-1 {
