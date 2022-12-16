@@ -31,8 +31,7 @@
 	<meta name="twitter:description" content="I'm Ash, a front-end web developer, and this is my portfolio!">
 	<meta name="twitter:image" content="https://ashthe.dev/assets/img/meta-card.png">
 	<!-- styles -->
-	<link rel="preload" as="image" href="assets/img/ash-smile.png">
-	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 

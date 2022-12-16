@@ -102,7 +102,8 @@
 								<ul>
 									<li>HTML,</li>
 									<li>Sass,</li>
-									<li>JS.</li>
+									<li>JS,</li>
+									<li>NPM.</li>
 								</ul>
 							</div>
 							<div class="btn-group text-small">
