@@ -63,11 +63,11 @@
 						<div class="table-content-container">
 							<div class="table-cell">
 								<b>Languages</b>
-								<p>Markdown, HTML, CSS, JavaScript, MySQL, PHP</p>
+								<p>Markdown, HTML, CSS, JavaScript, MySQL, PHP.</p>
 							</div>
 							<div class="table-cell">
 								<b>Libraries & Frameworks</b>
-								<p>Bootstrap, Tailwind, React, Next, Gatsby</p>
+								<p>Bootstrap, Tailwind, React.</p>
 							</div>
 							<div class="table-cell">
 								<b>Version Control</b>
@@ -75,17 +75,17 @@
 							</div>
 							<div class="table-cell">
 								<b>Content Management Systems</b>
-								<p>Wordpress, Strapi</p>
+								<p>Wordpress.</p>
 							</div>
 						</div>
 						<div class="table-content-container">
 							<div class="table-cell">
 								<b>Build Tools</b>
-								<p>NPM, Webpack, Gulp</p>
+								<p>NPM, Webpack, Gulp.</p>
 							</div>
 							<div class="table-cell">
 								<b>Pre-Processesors</b>
-								<p>Sass, PostCSS, CoffeeScript, Typescript</p>
+								<p>Sass, PostCSS, Typescript.</p>
 							</div>
 							<div class="table-cell">
 								<b>Tools</b>
@@ -93,7 +93,7 @@
 							</div>
 							<div class="table-cell">
 								<b>Concepts</b>
-								<p>a11y, Responsive, Cross-Browser, ...</p>
+								<p>A11y, SEO, Responsive, Cross-Browser.</p>
 							</div>
 						</div>
 					</div>
