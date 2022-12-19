@@ -19,6 +19,9 @@ footer {
 	.footer-btn {
 		position: absolute;
 		right: 18px;
-		top: 78px;
+		top: 75px;
+		@include media-2 {
+			right: 87px;
+		}
 	}
 }

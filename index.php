@@ -50,7 +50,7 @@
 	<script src="assets/js/modals.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
 	<script src="assets/js/canvas.js"></script>
-	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/scripts.js" defer></script>
 </body>
 
 </html>
