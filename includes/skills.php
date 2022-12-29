@@ -67,11 +67,11 @@
 							</div>
 							<div class="table-cell">
 								<b>Libraries & Frameworks</b>
-								<p>Bootstrap, Tailwind, <span>React</span>.</p>
+								<p>Bootstrap, Tailwind, <span class="learning">React</span>.</p>
 							</div>
 							<div class="table-cell">
 								<b>Version Control</b>
-								<p>Git, Github</p>
+								<p>Git, Github.</p>
 							</div>
 							<div class="table-cell">
 								<b>Content Management Systems</b>

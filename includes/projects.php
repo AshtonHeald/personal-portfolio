@@ -154,7 +154,7 @@
 									<li>HTML,</li>
 									<li>Sass,</li>
 									<li>JS,</li>
-									<li>PHP</li>
+									<li>PHP.</li>
 								</ul>
 							</div>
 							<div class="btn-group text-small">
