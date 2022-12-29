@@ -142,7 +142,7 @@
 	padding: 2px 4px;
 	position: absolute;
 	right: 0;
-	top: 45px;
+	top: 48px;
 	z-index: 4;
 	input {
 		display: none;
@@ -157,14 +157,14 @@
 		}
 		.handle {
 			background-color: #333;
-			width: 15px;
-			height: 15px;
 			border-radius: 50%;
+			height: 15px;
+			width: 15px;
 		}
 	}
 	@include media-1 {
-		top: 55px;
 		right: 15px;
+		top: 60px;
 	}
 	@include media-2 {
 		right: 93px;

@@ -52,7 +52,7 @@
 								<ul>
 									<li>CSS,</li>
 									<li>PHP,</li>
-									<li>Wordpress,</li>
+									<li>WordPress,</li>
 									<li>Elementor.</li>
 								</ul>
 							</div>

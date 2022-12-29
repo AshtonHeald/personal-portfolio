@@ -67,7 +67,7 @@
 							</div>
 							<div class="table-cell">
 								<b>Libraries & Frameworks</b>
-								<p>Bootstrap, Tailwind, React.</p>
+								<p>Bootstrap, Tailwind, <span>React</span>.</p>
 							</div>
 							<div class="table-cell">
 								<b>Version Control</b>
@@ -75,7 +75,7 @@
 							</div>
 							<div class="table-cell">
 								<b>Content Management Systems</b>
-								<p>Wordpress.</p>
+								<p>WordPress.</p>
 							</div>
 						</div>
 						<div class="table-content-container">
@@ -85,11 +85,11 @@
 							</div>
 							<div class="table-cell">
 								<b>Pre-Processesors</b>
-								<p>Sass, PostCSS, Typescript.</p>
+								<p>Sass, PostCSS, <span class="learning">Typescript</span>.</p>
 							</div>
 							<div class="table-cell">
 								<b>Tools</b>
-								<p>Figma, VS Code</p>
+								<p>Figma, VS Code.</p>
 							</div>
 							<div class="table-cell">
 								<b>Concepts</b>

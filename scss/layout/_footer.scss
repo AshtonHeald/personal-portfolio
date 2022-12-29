@@ -4,11 +4,11 @@
 footer {
 	display: grid;
 	height: 120px;
+	margin: 0 auto;
+	max-width: 1280px;
 	padding-top: 60px;
 	place-items: center;
 	position: relative;
-	margin: 0 auto;
-	max-width: 1280px;
 	width: 100%;
 	.footer-card {
 		background-color: $white;
