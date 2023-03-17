@@ -1,16 +1,20 @@
-/* Glide Carousel Styles */
 .glide__container {
 	align-items: center;
 	display: flex;
 	justify-content: center;
 	margin: 10px 0 40px;
-}
-.glide__track {
-	margin: 0 auto;
-	width: 80%;
-}
-.glide__slide {
-	width: 100vw;
+	.glide__track {
+		margin: 0 auto;
+		width: 80%;
+	}
+	@media (min-width: 767.99px) {
+		.glide__track {
+			width: 90%;
+		}
+		.glide__track.modal-track {
+			width: 80%;
+		}
+	}
 }
 .glide__arrow {
 	cursor: pointer;
@@ -72,12 +76,4 @@
 	cursor: grabbing;
 	cursor: -moz-grabbing;
 	cursor: -webkit-grabbing;
-}
-@media (min-width: 767.99px) {
-	.glide__track {
-		width: 90%;
-	}
-	.glide__track.modal-track {
-		width: 80%;
-	}
 }

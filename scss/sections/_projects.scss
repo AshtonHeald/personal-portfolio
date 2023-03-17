@@ -1,104 +1,23 @@
 @use "../abstracts/breakpoints" as *;
 // ===== Project Container ===== //
-#portfolio .project-container {
-  justify-content: space-between;
-  padding-bottom: 5px;
-  margin-top: 10px;
-  @include media-3 {
-    flex-direction: row;
-  }
-  .row {
-    @include media-3 {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-  .col {
-    display: flex;
-    @include media-3 {
-      width: 58%;
-      &:nth-of-type(2) {
-        width: 40%;
-      }
-    }
-    .project-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      .project-titles {
-        text-align: center;
-        h3 {
-          color: var(--color-brand-1);
-        }
-      }
-    }
-    .description {
-      margin-bottom: 10px;
-    }
-    .project-image {
-      img {
-        width: 100%;
-        margin-bottom: 5px;
-        @include media-3 {
-          margin: 0;
-        }
-      }
-    }
-    // ===== Rows ===== //
-    .container {
-      &:last-of-type {
-        align-items: end;
-        margin-bottom: 8px;
-        margin-top: auto;
-      }
-      ul {
-        list-style: decimal;
-        margin-left: 20px;
-      }
-    }
-  }
-  .technology-container {
-    display: flex;
-    justify-content: space-between;
-    .technology-icons {
-      border-left: solid 3px var(--color-tertiary);
-      padding-left: 8px;
-      margin-left: 2px;
-      display: flex;
-      align-items: center;
-      height: 30px;
-      margin-top: 5px;
-      i {
-        margin: 0 3px;
-      }
-    }
-    .btn-group {
-      margin-right: 2px;
-      i {
-        font-size: 16px;
-      }
-    }
-  }
+.projects-container {
+	img {
+		width: 100%;
+		height: 98%;
+	}
 }
-// ===== See More ===== //
-.see-more {
-  text-align: right;
-  #see-more-links {
-    margin-left: auto;
-  }
-  #see-more-span {
-    margin: auto 8px;
-  }
-  #see-more-links,
-  #see-more-span {
-    .see-more-link {
-      align-items: center;
-      display: inline-flex;
-      padding: 8px 0;
-      i {
-        margin-right: 5px;
-      }
-    }
-  }
+.project-container {
+	.project-image {
+		margin-bottom: 15px;
+		img {
+			width: 100%;
+			height: 98%;
+		}
+	}
+	.project-titles,
+	.description,
+	.technology-icons {
+		text-align: center;
+		margin-bottom: 15px;
+	}
 }

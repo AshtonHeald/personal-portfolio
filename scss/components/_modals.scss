@@ -3,139 +3,56 @@
 /* modal */
 
 .modal_container {
-  background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
-  bottom: 0;
-  cursor: pointer; /* Add a pointer on hover */
-  display: none; /* Hidden by default */
-  height: 100%; /* Full height (cover the whole page) */
-  left: 0;
-  place-items: center;
-  position: fixed; /* Sit on top of the page content */
-  right: 0;
-  top: 0;
-  width: 100%; /* Full width (cover the whole page) */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  .modal {
-    background: var(--color-secondary-2);
-    box-shadow: var(--shadow);
-    cursor: initial;
-    padding: 15px 20px 20px;
-    position: absolute;
-    z-index: 3;
-    border-radius: 12px;
-    max-width: 350px;
-    border: 5px solid var(--color-tertiary-2);
-    width: 92%;
-    @include breakpoint(670px) {
-      max-width: 610px;
-    }
-    .modal-header {
-      display: flex;
-      justify-content: space-between;
-      .close_modal {
-        display: flex;
-        img {
-          height: 25px;
-          width: 25px;
-          filter: var(--filter-color-primary);
-          &:hover {
-            filter: var(--filter-color-tertiary);
-          }
-        }
-      }
-    }
-    .modal-content {
-      color: var(--color-primary-2);
-      p {
-        margin-bottom: 10px;
-      }
-      ul {
-        margin-bottom: 10px;
-        list-style: disc;
-        padding-left: 30px;
-      }
-    }
-  }
-}
-#resume .modal {
-  padding: 20px;
-}
-// ------------------------------------------------------
-#portfolio .modal {
-  #about-modal-content {
-    #timeline-container {
-      padding: 10px 0;
-      ul {
-        margin-left: 10px;
-      }
-    }
-    @include breakpoint(670px) {
-      display: flex;
-      justify-content: space-between;
-      #tables-container {
-        width: 250px;
-      }
-      #timeline-container {
-        width: 310px;
-      }
-    }
-  }
-}
-#portfolio .modal {
-  width: 92%;
-  #about-modal-content {
-    font-size: 14px;
-  }
-  .modal-content {
-    margin-top: 5px;
-    h3 {
-      margin-bottom: 3px;
-    }
-    p {
-      margin-bottom: 10px;
-    }
-    .description-container {
-      ul {
-        margin-bottom: 12px;
-        list-style: decimal;
-        margin-left: 20px;
-      }
-    }
-    .technology-container {
-      border-left: solid 3px var(--color-tertiary);
-      padding-left: 5px;
-      margin-bottom: 15px;
-      .project-technologies {
-        display: flex;
-        img {
-          margin: 0 3px;
-        }
-      }
-      @include media-4 {
-        margin-bottom: 55px;
-      }
-    }
-    @include media-3 {
-      display: flex;
-      justify-content: space-between;
-      .modal-column {
-        width: 48%;
-        &:last-of-type {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        }
-      }
-    }
-    @include media-3 {
-      display: flex;
-      justify-content: space-between;
-      .modal-column {
-        width: 48%;
-      }
-    }
-  }
-  @include media-5 {
-    width: 1000px;
-  }
+	background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+	bottom: 0;
+	cursor: pointer; /* Add a pointer on hover */
+	display: none; /* Hidden by default */
+	height: 100%; /* Full height (cover the whole page) */
+	left: 0;
+	place-items: center;
+	position: fixed; /* Sit on top of the page content */
+	right: 0;
+	top: 0;
+	width: 100%; /* Full width (cover the whole page) */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	.modal {
+		background: var(--color-secondary-2);
+		box-shadow: var(--shadow);
+		cursor: initial;
+		padding: 20px;
+		position: absolute;
+		z-index: 3;
+		border: 5px solid var(--color-tertiary-2);
+		width: 100%;
+		height: 100%;
+		display: grid;
+		place-items: center;
+		@include breakpoint(666px) {
+			.row {
+				display: flex;
+			}
+		}
+		@include media-3 {
+			border-radius: 12px;
+			height: auto;
+			max-width: 480px;
+			padding: 30px;
+			.row {
+				display: block;
+			}
+		}
+		.close_modal {
+			position: absolute;
+			right: 7.5px;
+			top: 10px;
+			img {
+				height: 25px;
+				width: 25px;
+				filter: var(--filter-color-primary);
+				&:hover {
+					filter: var(--filter-color-tertiary);
+				}
+			}
+		}
+	}
 }

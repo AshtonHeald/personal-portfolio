@@ -18,12 +18,16 @@ function toggle() {
 // ==================================================
 // Projects Slider
 // ==================================================
-var projectGlide = new Glide("#project-glide", {
+var projectGlide = new Glide("#projectGlide", {
 	type: "slider",
 	autoplay: 5000,
 	gap: 30,
 	hoverpause: true,
-	perView: 1,
-	breakpoints: {},
+	perView: 2,
+	breakpoints: {
+		767: {
+			perView: 1,
+		},
+	},
 });
 projectGlide.mount();

@@ -1,6 +1,6 @@
-<div class="modal_container" data-index="0">
+<div class="modal_container" data-index="4">
 	<div class="modal">
-		<button class="close_modal" data-index="0"><img src="assets/img/icons/times.svg" alt="x"></button>
+		<button class="close_modal" data-index="4"><img src="assets/img/icons/times.svg" alt="x"></button>
 		<div class="project-container">
 			<div class="project-titles">
 				<h3 class="h4 modal-title">Ethereum.org (Mockup)</h3>

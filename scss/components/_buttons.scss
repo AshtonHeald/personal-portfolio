@@ -22,21 +22,18 @@
 	width: 50%;
 	color: var(--color-secondary);
 	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	span {
+		margin-right: 6px;
+	}
 	&:hover {
 		box-shadow: var(--shadow-hover);
 	}
 	&:active {
 		box-shadow: var(--pressed);
 	}
-}
-.btn-sm {
-	width: 40px;
-}
-.btn-md {
-	max-width: 150px;
-}
-.btn-lg {
-	max-width: 245px;
 }
 
 @include media-5 {
