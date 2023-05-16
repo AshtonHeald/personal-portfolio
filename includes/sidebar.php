@@ -13,7 +13,7 @@
 				</a>
 			</li>
 			<li>
-				<a class="link" href="https://codepen.io/AshtonHeald" target="_blank" rel="noopener noreferrer">
+				<a class="link" href="https://codepen.io/ashthedev" target="_blank" rel="noopener noreferrer">
 					<i class="fa-brands fa-codepen"></i>
 					<span>CodePen</span>
 				</a>
@@ -27,7 +27,7 @@
 		</ul>
 	</div>
 	<div class="sidebar-footer">
-		<button class="link" onclick="location.href='#home';" id="mySideBtn" title="Go to top">Go to
+		<button class="nav-link" onclick="location.href='#home';" id="mySideBtn" title="Go to top">Go to
 			top&nbsp;<i class="fa-light fa-square-up"></i></button>
 	</div>
 </aside>

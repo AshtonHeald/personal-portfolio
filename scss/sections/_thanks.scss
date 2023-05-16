@@ -3,86 +3,59 @@
 	display: grid;
 	place-items: center;
 	height: 100vh;
-}
-.main {
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  background-image: url(../img/ash-blue-thanks.png);
-  background-position: bottom 50px center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  @include media-2 {
-	background-position: bottom 100px center;
-	background-size: 60%;
 	background-color: var(--color-secondary);
-	padding: 50px;
-	box-shadow: var(--shadow);
-	border-radius: 12px;
-	height: 425px;
-  }
-  div {
-    display: grid;
-    place-items: center;
-    span {
-      display: flex;
-      align-items: baseline;
-      h1 {
-        margin-right: 5px;
-		@include media-2 {
-			margin-right: 10px;
-		}
-      }
-    }
-    a {
-      font-size: 20px;
-      display: flex;
-      align-items: baseline;
-      border: 2px solid var(--color-primary);
-      padding: 10px 25px;
-      border-radius: 8px;
-	  background-color: var(--color-secondary-surface);
-	  &:focus {
-		border-color: var(--color-tertiary);
-	  }
-      span {
-        margin: 0 5px;
-      }
-    }
-  }
+	@include media-2 {
+		background-color: unset;
+	}
 }
-/*
-
 .main {
-    display: grid;
-    place-items: center;
-    padding: 100px 50px;
-	background-image: url(../img/ash-blue-thanks.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 70%;
-		height: 600px;
-    span {
-      display: flex;
-      align-items: baseline;
-      h1 {
-        margin: 0 20px 60px;
-      }
-      i {
-        font-size: 4.209rem;
-			color: var(--color-tertiary);
-      }
-    }
-    a {
-      font-size: 20px;
-	  display: flex;
-	  align-items: baseline;
-	  border: 2px solid var(--color-primary);
-	  padding: 10px 20px;
-	  border-radius: 8px;
-	  span {
-		margin: 0 5px;
-	  }
-    }
-*/
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-image: url(../img/ash-thanks.webp);
+	background-position: bottom 45px center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	@include media-2 {
+		background-position: bottom 75px center;
+		background-size: 75%;
+		background-color: var(--color-secondary);
+		padding: 30px;
+		box-shadow: var(--shadow);
+		border-radius: 12px;
+		height: 425px;
+	}
+	div {
+		display: grid;
+		place-items: center;
+		span {
+			display: flex;
+			align-items: baseline;
+			h1 {
+				margin-right: 5px;
+				@include media-2 {
+					margin-right: 10px;
+				}
+			}
+		}
+		a {
+			font-size: 16px;
+			display: flex;
+			align-items: baseline;
+			border: 2px solid var(--color-primary);
+			padding: 10px 25px;
+			border-radius: 8px;
+			background-color: var(--color-secondary-surface);
+			i {
+				font-size: 14px;
+			}
+			p {
+				margin-left: 4px;
+			}
+			&:focus {
+				border-color: var(--color-tertiary);
+			}
+		}
+	}
+}

@@ -7,3 +7,13 @@ First iteration of my personal web development portfolio showcasing some of my b
 - SCSS
 - JavaScript
 - PHP
+//
+Features
+- 3d Model Rendering using Model View Library
+- Interactive Carousel using Carousel Library
+- Form Validation using form spree
+- Modals
+- Native Dark Mode
+- Responsive Design
+- Hover Effects
+- Type Writer Effect

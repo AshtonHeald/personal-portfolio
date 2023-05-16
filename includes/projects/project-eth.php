@@ -4,7 +4,7 @@
 		<div class="project-container">
 			<div class="project-titles">
 				<h3 class="h4 modal-title">Ethereum.org (Mockup)</h3>
-				<a href="https://start.ashthe.dev/ethereum.org">
+				<a class="link" href="https://start.ashthe.dev/ethereum.org">
 					<span class="highlight">start.ashthe.dev/ethereum.org</span>
 				</a>
 			</div>
@@ -18,16 +18,17 @@
 					<p class="description">Revamp of the front page of <a href="https://ethereum.org">ethereum.org</a> with layout and UI
 						fixes.</p>
 					<div class="technology-icons">
-						<i class="fa-brands fa-html5"></i>
-						<i class="fa-brands fa-bootstrap"></i>
-						<i class="fa-brands fa-sass"></i>
+						<img class="tech-icon" src="assets/img/icons/html.svg" alt="">
+						<img class="tech-icon" src="assets/img/icons/npm.svg" alt="">
+						<img class="tech-icon" src="assets/img/icons/bootstrap.svg" alt="">
+						<img class="tech-icon" src="assets/img/icons/sass.svg" alt="">
 					</div>
-					<div class="btn-group">
+					<div class="btn-group project-btns">
 						<a href="https://github.com/AshtonHeald/ethereum.org" target=" _blank" rel="noopener noreferrer" class="btn" title="View Code">
 							<span>Code</span>
 							<i class="fa-brands fa-github"></i>
 						</a>
-						<a href="https://start.ashthe.dev/ethereum.org" class="btn" title="Live Demo">
+						<a href="https://start.ashthe.dev/ethereum.org" class="btn alt" title="Live Demo">
 							<span>Live Demo</span>
 							<i class="fa-solid fa-arrow-up-right-from-square"></i>
 						</a>

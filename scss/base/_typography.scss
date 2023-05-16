@@ -71,9 +71,6 @@ h6 {
 	font-size: 1rem;
 }
 // ------------------------------------
-.highlight {
-	color: var(--color-tertiary);
-}
 .link,
 .nav-link {
 	color: var(--color-primary);
@@ -82,12 +79,15 @@ h6 {
 		color: var(--color-tertiary);
 	}
 }
+.highlight {
+	color: var(--color-tertiary);
+}
 // ------------------------------------
 a span {
 	display: inline-block;
 	position: relative;
 }
-a span:after {
+.link span:after {
 	content: "";
 	position: absolute;
 	width: 100%;
@@ -99,8 +99,8 @@ a span:after {
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
-a:hover span:after,
-a:focus span:after {
+.link:hover span:after,
+.link:focus span:after {
 	transform: scaleX(1);
 	transform-origin: bottom left;
 	color: var(--color-tertiary);

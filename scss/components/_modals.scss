@@ -1,20 +1,17 @@
 @use "../abstracts/breakpoints" as *;
-/* Modal Styles*/
-/* modal */
-
 .modal_container {
-	background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+	background-color: rgba(0, 0, 0, 0.9);
 	bottom: 0;
-	cursor: pointer; /* Add a pointer on hover */
-	display: none; /* Hidden by default */
-	height: 100%; /* Full height (cover the whole page) */
+	cursor: pointer;
+	display: none;
+	height: 100%;
 	left: 0;
 	place-items: center;
-	position: fixed; /* Sit on top of the page content */
+	position: fixed;
 	right: 0;
 	top: 0;
-	width: 100%; /* Full width (cover the whole page) */
-	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	width: 100%;
+	z-index: 2;
 	.modal {
 		background: var(--color-secondary-2);
 		box-shadow: var(--shadow);

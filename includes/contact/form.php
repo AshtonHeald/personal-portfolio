@@ -14,6 +14,6 @@
 			<textarea name="message" id="message" placeholder="Type message here..." rows="5" required></textarea>
 		</div>
 	</div>
-	<input type="submit" value="Send" class="btn flex" title="Submit Form">
+	<input type="submit" value="Send" class="btn" title="Submit Form">
 	<input type="hidden" name="_next" value="https://ashthe.dev/thank-you">
 </form>

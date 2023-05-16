@@ -1,50 +1,33 @@
 @use "../abstracts/breakpoints" as *;
-.another-container {
+#about-content {
 	@include media-3 {
-		background-image: url(../img/ash-blue-mirror.png);
-		background-position: right -30px bottom;
-		background-repeat: no-repeat;
-		background-size: 40%;
+		display: flex;
 	}
-	@include breakpoint(823.99px) {
-		background-size: 40%;
-	}
-	@include media-5 {
-		background-size: 35%;
-	}
-	#about-content {
+	#about-content-container {
 		@include media-3 {
-			display: flex;
+			flex: 0 0 65%;
 		}
-		#about-content-container {
-			@include media-3 {
-				flex: 0 0 65%;
-			}
-			p {
-				padding-bottom: 20px;
-				border-bottom: solid 1px var(--color-accent);
-			}
-			button.readmore:hover {
-				span {
-					display: none;
-				}
-
-				&:after {
-					content: "Open card";
-				}
-			}
-			#about-buttons {
-				justify-content: center;
-				margin: 0;
-				max-width: 500px;
-			}
+		p {
+			padding-bottom: 20px;
+			border-bottom: solid 1px var(--color-accent);
+		}
+	}
+	.about-model {
+		width: 100%;
+		model-viewer {
+			width: 100%;
+			height: 100%;
 		}
 	}
 }
 .tech-icons {
-	position: absolute;
-	margin-left: 6px;
-	i {
-		margin-right: 6px;
+	display: flex;
+	.tech-icon {
+		margin-left: 6px;
+		max-width: 26px;
+		max-height: 26px;
 	}
+}
+.info.mb-4 {
+	display: flex;
 }

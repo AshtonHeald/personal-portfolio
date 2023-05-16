@@ -7,6 +7,22 @@
 		width: 100%;
 		z-index: 2;
 		background-color: var(--color-secondary);
+		#logo {
+			font-size: 20px;
+			font-weight: bold;
+			position: absolute;
+			top: 10px;
+			left: 15px;
+			&:hover {
+				color: var(--color-tertiary);
+			}
+		}
+		@include media-4 {
+			display: block;
+			#logo {
+				display: none;
+			}
+		}
 		#menu-toggle {
 			display: none;
 			&:checked ~ #toggle {
@@ -65,8 +81,7 @@
 	#menu-toggle + label {
 		display: block;
 		height: 25px;
-		margin: 12.5px 15px;
-		margin-left: auto; /* This should & must go after margin */
+		margin: 12.5px 15px 12.5px auto;
 		width: 25px;
 		background-image: url(../img/icons/bars.svg);
 		background-position: center;
@@ -121,20 +136,6 @@
 			margin-bottom: auto;
 			padding: 10px 0;
 			top: 0;
-		}
-	}
-}
-#resume {
-	nav {
-		ul {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			li {
-				a {
-					padding: 5px;
-				}
-			}
 		}
 	}
 }

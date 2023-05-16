@@ -30,21 +30,7 @@
 		.mouse-shape {
 			display: none;
 			@include media-4 {
-				box-sizing: content-box;
 				display: block;
-				height: 28px;
-				margin: 0 auto;
-				padding: 5px 11px;
-				width: 3px;
-				background-color: rgba(0, 0, 0, 0.5);
-				border-radius: 25px;
-				opacity: 0.8;
-				.mouse-wheel {
-					height: 10px;
-					width: 3px;
-					background-color: var(--color-secondary-surface);
-					border-radius: 25%;
-				}
 			}
 		}
 		@include media-4 {

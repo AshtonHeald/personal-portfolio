@@ -1,11 +1,12 @@
 <div id="navigation">
+	<a href="https://ashthe.dev" id="logo">AshTheDev</a>
 	<input type='checkbox' name='thing' value='valuable' id="menu-toggle" />
 	<label id="menu-toggle-btn" for="menu-toggle" class="df"></label>
 	<div id="toggle">
 		<div id="nav-header">
 			<a href="https://ashthe.dev" id="avatar" class="small"></a>
 			<span class="bold">Front-End Developer</span>
-			<a href="https://www.linkedin.com/in/ashtonheald/" id="status" class="highlight" target="_blank" rel="noopener noreferrer">
+			<a class="link highlight" href="https://www.linkedin.com/in/ashtonheald/" id="status" class="highlight" target="_blank" rel="noopener noreferrer">
 				<span>@ Looking for Work</span>
 			</a>
 		</div>

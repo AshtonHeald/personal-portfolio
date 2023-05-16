@@ -22,12 +22,15 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	&:focus {
+		outline: none;
+	}
+	&:hover .arrow {
+		filter: var(--filter-link);
+	}
 	i {
 		font-size: 30px;
 	}
-}
-.glide__arrow:focus {
-	outline: none;
 }
 .glide__arrow--left {
 	padding: 10px 12px 10px 3px;
@@ -39,9 +42,6 @@
 .glide__arrow--disabled {
 	opacity: 0.33;
 }
-.glide__arrow:hover .arrow {
-	filter: var(--filter-link);
-}
 .glide__bullets {
 	bottom: -25px;
 	display: flex;
@@ -49,29 +49,29 @@
 	list-style: none;
 	position: absolute;
 	transform: translateX(-50%);
+	.glide__bullet {
+		background-color: var(--color-secondary-surface);
+		border: 2px solid transparent;
+		border-radius: 50%;
+		box-shadow: var(--shadow);
+		cursor: pointer;
+		height: 10px;
+		line-height: 0;
+		margin: 0 0.25em;
+		padding: 0;
+		width: 10px;
+		&:focus {
+			outline: none;
+		}
+		&:hover {
+			background-color: var(--color-tertiary);
+		}
+	}
+	.glide__bullet--active {
+		background-color: var(--color-tertiary);
+	}
 }
-.glide__bullet {
-	background-color: var(--color-secondary-surface);
-	border: 2px solid transparent;
-	border-radius: 50%;
-	box-shadow: var(--shadow);
-	cursor: pointer;
-	height: 10px;
-	line-height: 0;
-	margin: 0 0.25em;
-	padding: 0;
-	width: 10px;
-}
-.glide__bullet:focus {
-	outline: none;
-}
-.glide__bullet:hover {
-	/* border: 2px solid white; */
-	background-color: var(--color-tertiary);
-}
-.glide__bullet--active {
-	background-color: var(--color-tertiary);
-}
+
 .glide--dragging {
 	cursor: grabbing;
 	cursor: -moz-grabbing;

@@ -83,31 +83,47 @@
 	}
 	67%,
 	96% {
-		content: "t";
+		content: "p";
 	}
 	68%,
 	95% {
-		content: "th";
+		content: "ph";
 	}
 	69%,
 	94% {
-		content: "thi";
+		content: "phi";
 	}
 	70%,
 	93% {
-		content: "thin";
+		content: "phil";
 	}
 	71%,
 	92% {
-		content: "think";
+		content: "philo";
 	}
 	72%,
 	91% {
-		content: "thinke";
+		content: "philos";
 	}
 	73%,
 	90% {
-		content: "thinker";
+		content: "philoso";
+	}
+	74%,
+	89% {
+		content: "philosop";
+	}
+	75%,
+	88% {
+		content: "philosoph";
+	}
+	76%,
+	87% {
+		content: "philosophe";
+	}
+	77%,
+	86% {
+		content: "philosopher";
 	}
 }
 .typewriter {
@@ -166,14 +182,11 @@
 		100% {
 			content: "developer";
 		}
-		25% {
-			content: "designer";
-		}
-		50% {
+		33% {
 			content: "writer";
 		}
-		75% {
-			content: "human";
+		66% {
+			content: "philosopher";
 		}
 	}
 }
