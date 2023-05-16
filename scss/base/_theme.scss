@@ -1,0 +1,56 @@
+/*
+Winter Frost & Rosé
+===================
+#0A0A0A - Rich Black
+#FFFAFA - Snow
+#D6D6D6 - Light Gray
+#696969 - Dim Gray
+#EBFFFF - Azure X 11 Web Color
+#FBB2C5 - Cherry Blossom Pink
+
+/* HSL Colors */
+$azure-x-11-web-color: hsla(180, 100%, 96%, 1);
+$cherry-blossom-pink: hsla(344, 90%, 84%, 1);
+$dim-gray: hsla(0, 0%, 41%, 1);
+$light-gray: hsla(0, 0%, 84%, 1);
+$rich-black-fogra-39: hsla(0, 0%, 4%, 1);
+$snow: hsla(0, 100%, 99%, 1);
+
+/* Color Scheme */
+$black: $rich-black-fogra-39;
+$blue: $azure-x-11-web-color;
+$gray-100: $light-gray;
+$gray-500: $dim-gray;
+$pink: $cherry-blossom-pink;
+$white: $snow;
+
+/*
+Variable Names
+==============
+$black
+$blue
+$gray-100
+$gray-500
+$pink
+$white
+==============
+*/
+
+body {
+	// https://www.joshwcomeau.com/gradient-generator/
+	// #FFFAFA #EBFFFF #EBFFFF Ease
+	background-image: linear-gradient(
+		180deg,
+		hsl(0deg 100% 99%) 0%,
+		hsl(38deg 100% 98%) 20%,
+		hsl(71deg 100% 98%) 29%,
+		hsl(107deg 100% 97%) 36%,
+		hsl(145deg 100% 97%) 43%,
+		hsl(180deg 100% 96%) 50%,
+		hsl(180deg 100% 96%) 57%,
+		hsl(180deg 100% 96%) 64%,
+		hsl(180deg 100% 96%) 71%,
+		hsl(180deg 100% 96%) 80%,
+		hsl(180deg 100% 96%) 100%
+	);
+}

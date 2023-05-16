@@ -1,43 +1,41 @@
 @use "../abstracts/breakpoints" as *;
-.another-container {
-	@include media-3 {
-		background-image: url(../img/ash-blue-mirror.png);
-		background-position: right -30px bottom;
-		background-repeat: no-repeat;
-		background-size: 40%;
+#about {
+	display: flex;
+	flex-direction: column-reverse;
+	.btn-group {
+		justify-content: space-between;
 	}
-	@include breakpoint(823.99px) {
-		background-size: 40%;
+	.btn {
+		width: 48%;
 	}
-	@include media-5 {
-		background-size: 35%;
-	}
-	#about-content {
-		@include media-3 {
-			display: flex;
+	h1 {
+		text-align: center;
+		@include media-1 {
+			text-align: left;
 		}
-		#about-content-container {
-			@include media-3 {
-				flex: 0 0 65%;
+	}
+	@include media-1 {
+		flex-direction: row;
+	}
+	aside {
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+	article {
+		p {
+			&:last-of-type {
+				margin-bottom: 20px;
 			}
-			p {
-				padding-bottom: 20px;
-				border-bottom: solid 1px var(--color-accent);
-			}
-			button.readmore:hover {
-				span {
-					display: none;
-				}
-
-				&:after {
-					content: "Open card";
-				}
-			}
-			#about-buttons {
-				justify-content: center;
-				margin: 0;
-				max-width: 500px;
-			}
+		}
+	}
+	@include media-1 {
+		article {
+			padding-right: 20px;
+		}
+	}
+	@include media-2 {
+		article {
+			padding-right: 40px;
 		}
 	}
 }

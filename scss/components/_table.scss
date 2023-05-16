@@ -1,0 +1,55 @@
+@use "../abstracts/breakpoints" as *;
+@use "../base/library" as *;
+@use "../base/theme" as *;
+#tech-table {
+	background-color: $white;
+	border: $border;
+	border-radius: $border-radius;
+	margin-bottom: 20px;
+	@include media-2 {
+		margin-bottom: 0;
+	}
+	p {
+		margin-bottom: 0;
+	}
+	#table-header {
+		background-color: $light-gray;
+		border-bottom: $border;
+		border-radius: $border-radius-top;
+		font-weight: bold;
+		padding: 4px;
+		text-align: center;
+	}
+	.table-content {
+		@include media-1 {
+			display: flex;
+			.table-content-container {
+				width: 50%;
+				&:last-of-type {
+					.table-cell {
+						border-left: $border;
+					}
+				}
+				.table-cell {
+					&:last-of-type {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+		.table-content-container {
+			.table-cell {
+				border-bottom: $border;
+				height: 100px;
+				padding: 8px 12px;
+			}
+			&:last-of-type {
+				.table-cell {
+					&:last-of-type {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,139 +1,183 @@
 @use "../abstracts/breakpoints" as *;
-#portfolio {
-  #navigation {
-    height: 50px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-    background-color: var(--color-secondary);
-    #menu-toggle {
-      display: none;
-      &:checked ~ #toggle {
-        display: flex;
-        flex-direction: column;
-      }
-    }
-    #toggle {
-      display: none;
-      height: calc(100vh - 50px);
-      background-color: var(--color-secondary);
-      #nav-header {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        #avatar {
-          margin: 40px auto 15px;
-        }
-        #status {
-          margin: 0 auto 8px;
-          padding: 3px 0 10px;
-          text-align: center;
-          width: 160px;
-          border-bottom: 1px solid var(--color-accent);
-        }
-      }
-      nav {
-        height: 100%;
-        .nav-list {
-          flex-direction: column;
-          height: 100%;
-          .nav-link {
-            display: block;
-            padding: 10px;
-            margin: 0 auto;
-            width: 160px;
-            text-align: center;
-          }
-          .menu-footer {
-            align-items: baseline;
-            justify-content: center;
-            margin-top: auto;
-            padding: 12px;
-            span {
-              padding-left: 5px;
-            }
-          }
-        }
-      }
-    }
-  }
-  body#menu-toggle:checked {
-    overflow: hidden;
-  }
-  #menu-toggle + label {
-    display: block;
-    height: 25px;
-    margin: 12.5px 15px;
-    margin-left: auto; /* This should & must go after margin */
-    width: 25px;
-    background-image: url(../img/icons/bars.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: var(--filter-color-primary);
-  }
-
-  #menu-toggle + #menu-toggle-button:hover,
-  #menu-toggle + label:hover {
-    cursor: pointer;
-    filter: var(--filter-color-tertiary);
-  }
-  #menu-toggle:checked + label {
-    background-image: url(../img/icons/times.svg);
-  }
-  #nav-icon,
-  #sidebar-avatar {
-    font-family: "Noto Serif JP", serif;
-  }
-
-  input:checked + .slider-wrapper .theme-btn-slider {
-    transform: translateX(15px);
-  }
-  @media (max-height: 549.99px) {
-    #nav-header {
-      display: none;
-    }
-  }
-  @include media-4 {
-    /* - Sidebar / Navbar */
-    #navigation {
-      height: 100vh;
-      position: fixed;
-      text-align: center;
-      width: 256px;
-      #menu-toggle + label {
-        display: none;
-      }
-      #toggle {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-    }
-  }
-  @include media-6 {
-    #navigation {
-      bottom: 0;
-      height: 844px;
-      margin-top: auto;
-      margin-bottom: auto;
-      padding: 10px 0;
-      top: 0;
-    }
-  }
+@use "../base/theme" as *;
+#navbar {
+	background-color: $white;
+	border-bottom: 2px solid $black;
+	display: grid;
+	height: 50px;
+	place-items: center;
+	position: fixed;
+	top: 0;
+	user-select: none;
+	width: 100%;
+	z-index: 2;
+	@include media-1 {
+		height: 60px;
+	}
 }
-#resume {
-  nav {
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      li {
-        a {
-          padding: 5px;
-        }
-      }
-    }
-  }
+#navigation {
+	max-width: 1280px;
+	width: 100%;
+	@include media-2 {
+		display: flex;
+		position: relative;
+	}
+}
+#logo {
+	display: block;
+	margin: 7px 15px 13px;
+	position: absolute;
+	top: 0;
+	width: auto;
+	@include media-1 {
+		margin: 12px 15px 18px;
+	}
+}
+#navMenu {
+	display: none;
+}
+/* When the checkbox is ticked, the main navigation will display */
+#menuBtn {
+	display: none;
+	&:checked ~ #navMenu {
+		display: grid;
+	}
+	&:checked ~ #navBtn {
+		background-image: url(../../assets/img/xmark-solid.svg);
+	}
+}
+#navBtn {
+	background-image: url(../../assets/img/bars-solid.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	position: absolute;
+	right: 18px;
+	top: 14px;
+	width: 20px;
+	z-index: 3;
+	cursor: pointer;
+	@include media-1 {
+		top: 20px;
+	}
+	@include media-2 {
+		display: none;
+	}
+}
+#navMenu {
+	border-bottom: 2px solid $black;
+	background: transparent;
+	background-color: transparent;
+	backdrop-filter: blur(8px);
+	height: 220px;
+	padding: 8px;
+	place-items: center;
+	position: fixed;
+	text-align: center;
+	top: 50px;
+	width: 100%;
+	z-index: 2;
+	#listMenu {
+		li a {
+			display: block;
+			padding: 6px;
+			width: 120px;
+			&:hover {
+				color: $gray-500;
+			}
+		}
+	}
+	#socialMenu {
+		display: flex;
+		justify-content: space-between;
+		width: 180px;
+		li a {
+			display: grid;
+			height: 30px;
+			padding: 4px;
+			place-items: center;
+			width: 30px;
+			i {
+				font-size: 22px;
+			}
+			&:hover {
+				i {
+					color: $gray-500;
+				}
+			}
+		}
+	}
+	@include media-1 {
+		top: 60px;
+	}
+	@include media-2 {
+		background: none;
+		backdrop-filter: none;
+		display: flex;
+		height: 60px;
+		position: relative;
+		top: 0;
+		#listMenu {
+			display: flex;
+			left: 0;
+			margin-left: auto;
+			margin-right: auto;
+			position: absolute;
+			right: 0;
+			width: 330px;
+			li a {
+				padding: 6px 10px;
+				width: auto;
+			}
+		}
+		#socialMenu {
+			margin: 15px;
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+#canvasToggle {
+	padding: 2px 4px;
+	position: absolute;
+	right: 0;
+	top: 48px;
+	z-index: 4;
+	input {
+		display: none;
+	}
+	label {
+		cursor: pointer;
+		display: grid;
+		place-items: center;
+		#chain {
+			border-left: 2px dotted #333;
+			height: 50px;
+		}
+		.handle {
+			background-color: #333;
+			border-radius: 50%;
+			height: 15px;
+			width: 15px;
+		}
+	}
+	@include media-1 {
+		right: 15px;
+		top: 60px;
+	}
+	@include media-2 {
+		right: 93px;
+	}
+}
+@keyframes pull {
+	0% {
+		height: 50px;
+	}
+	50% {
+		height: 75px;
+	}
+	100% {
+		height: 50px;
+	}
 }

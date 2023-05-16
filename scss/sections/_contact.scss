@@ -1,26 +1,27 @@
 @use "../abstracts/breakpoints" as *;
 .contact-columns {
-	// Contact Column 1 - Form
+	display: flex;
+	flex-direction: column;
 	.contact-column-1 {
-		@include media-3 {
-			flex: 0 0 75%;
+		margin-bottom: 25px;
+	}
+	@include media-1 {
+		flex-direction: row;
+		.contact-column-1 {
+			margin-bottom: 0;
+			width: 48%;
 		}
-		@include media-5 {
-			flex: 100%;
-			padding: 0;
+		.contact-column-2 {
+			margin-left: auto;
+			width: 48%;
 		}
 	}
-	// Contact Column 2 - Menus
-	.contact-column-2 {
-		@include media-3 {
-			width: 100%;
-			display: flex;
-			flex: 0 0 25%;
-			flex-direction: column;
-			justify-content: space-between;
+	@include media-2 {
+		.contact-column-1 {
+			width: 61%;
 		}
-		@include media-5 {
-			display: none;
+		.contact-column-2 {
+			width: 35.5%;
 		}
 	}
 }

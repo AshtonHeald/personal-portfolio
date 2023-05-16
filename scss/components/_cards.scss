@@ -1,6 +1,30 @@
-// Project Cards
+@use "../base/theme" as *;
+@use "../base/library" as *;
 
-// #resume { .project-card {} }
-
-// #portfolio { .project-card {} }
-
+.card {
+	background-color: $white;
+	border: $border;
+	border-radius: $border-radius;
+	.card-header {
+		background-color: $light-gray;
+		border-bottom: $border;
+		border-radius: $border-radius-top;
+		font-weight: bold;
+		padding: 4px;
+		text-align: center;
+	}
+	.card-body {
+		padding: 8px 12px 12px;
+	}
+}
+#values {
+	.card-body {
+		display: flex;
+		ul {
+			width: 50%;
+			&:first-of-type {
+				margin-right: 10px;
+			}
+		}
+	}
+}

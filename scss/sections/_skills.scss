@@ -1,0 +1,48 @@
+@use "../abstracts/breakpoints" as *;
+#skills-flex {
+	.skills-group-1 {
+		.card {
+			margin-bottom: 20px;
+		}
+		.skills-group-1-subgroup {
+			@include media-1 {
+				display: flex;
+				justify-content: space-between;
+				.card {
+					width: 270px;
+				}
+			}
+			@include media-2 {
+				.card {
+					width: 240px;
+				}
+			}
+		}
+		@include media-2 {
+			display: flex;
+			justify-content: space-between;
+			#knowledges {
+				margin-right: 20px;
+			}
+			#values {
+				width: 240px;
+			}
+		}
+	}
+	.skills-group-2 {
+		@include media-2 {
+			display: flex;
+			#hobbies {
+				margin-left: 20px;
+				width: 140px;
+			}
+		}
+	}
+}
+#hobbies {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
