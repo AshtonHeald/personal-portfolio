@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div id="navbar">
 	<div id="navigation">
 		<a id="logo" href="https://ashthe.dev">Ash<span class="gray">The</span><span class="blue">Dev</span></a>
@@ -15,6 +16,24 @@
 					<a class="nav-link" target="_blank" href="https://www.linkedin.com/in/ashtonheald/">
 						<i class="fa-brands fa-linkedin-in"></i>
 					</a>
+=======
+<div id="navigation">
+	<a href="https://ashthe.dev" id="logo">AshTheDev</a>
+	<input type='checkbox' name='thing' value='valuable' id="menu-toggle" />
+	<label id="menu-toggle-btn" for="menu-toggle" class="df"></label>
+	<div id="toggle">
+		<div id="nav-header">
+			<a href="https://ashthe.dev" id="avatar" class="small"></a>
+			<span class="bold">Front-End Developer</span>
+			<a class="link highlight" href="https://www.linkedin.com/in/ashtonheald/" id="status" class="highlight" target="_blank" rel="noopener noreferrer">
+				<span>@ Looking for Work</span>
+			</a>
+		</div>
+		<nav>
+			<ul class="flex nav-list">
+				<li class="links">
+					<a class="nav-link" href="#home" onclick="toggle()"> Home</a>
+>>>>>>> working
 				</li>
 				<li>
 					<a class="nav-link" target="_blank" href="https://uiuxdev.social/@ashthedev">

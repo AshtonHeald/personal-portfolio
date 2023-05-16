@@ -20,4 +20,9 @@
 		<input class="btn" type="submit" value="Send" title="Submit Form">
 		<input type="hidden" name="_next" value="https://ashthe.dev/thank-you">
 	</div>
+<<<<<<< HEAD
+=======
+	<input type="submit" value="Send" class="btn" title="Submit Form">
+	<input type="hidden" name="_next" value="https://ashthe.dev/thank-you">
+>>>>>>> working
 </form>

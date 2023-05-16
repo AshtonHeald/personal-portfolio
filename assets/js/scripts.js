@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ===== Nav Link Toggle =====
 const menuBtn = document.querySelector("#menuBtn");
 const navLink = document.querySelectorAll(".nav-link");
@@ -7,10 +8,23 @@ for (var i = 0; i < numLink; i++) {
 	navLink[i].addEventListener("click", toggle);
 }
 
+=======
+const menuBtn = document.querySelector("#menu-toggle");
+const element = document.querySelector("#toggle");
+const html = document.querySelector("#html");
+
+function overflow() {
+	html.style.overflowY = getComputedStyle(element).display === "flex" ? "hidden" : "unset";
+}
+
+menuBtn.addEventListener("change", overflow);
+
+>>>>>>> working
 function toggle() {
 	menuBtn.checked = false;
 }
 
+<<<<<<< HEAD
 // ===== Canvas Toggle =====
 const canvasToggle = document.getElementById("canvasToggle");
 
@@ -42,3 +56,18 @@ function pullChain() {
 		chain.style.animation = "none";
 	}
 }
+=======
+var projectGlide = new Glide("#projectGlide", {
+	type: "slider",
+	autoplay: 5000,
+	gap: 30,
+	hoverpause: true,
+	perView: 2,
+	breakpoints: {
+		767: {
+			perView: 1,
+		},
+	},
+});
+projectGlide.mount();
+>>>>>>> working

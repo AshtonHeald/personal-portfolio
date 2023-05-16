@@ -1,6 +1,9 @@
 @use "../abstracts/breakpoints" as *;
+<<<<<<< HEAD
 @use "../base/theme" as *;
 @use "../base/library" as *;
+=======
+>>>>>>> working
 .btn {
 	background-color: $pink;
 	border: $border;
@@ -14,8 +17,26 @@
 	place-items: center;
 	pointer-events: auto;
 	text-align: center;
+<<<<<<< HEAD
 	cursor: pointer;
 	&:focus,
+=======
+	width: 150px;
+	color: var(--color-secondary);
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	i {
+		color: var(--color-secondary);
+	}
+	@include media-2 {
+		width: 200px;
+	}
+	span {
+		margin-right: 6px;
+	}
+>>>>>>> working
 	&:hover {
 		box-shadow: none;
 		outline: none;
@@ -24,6 +45,7 @@
 		outline: 2px solid $pink;
 	}
 }
+<<<<<<< HEAD
 .disabled {
 	background-color: $gray-100;
 	color: $gray-500;
@@ -62,3 +84,21 @@
 		cursor: pointer;
 	}
 }
+=======
+.btn-group {
+	display: flex;
+	.btn.alt {
+		margin-left: 10px;
+		background-color: var(--color-secondary-surface);
+		color: var(--color-primary);
+		i {
+			color: var(--color-primary);
+		}
+	}
+}
+@include media-5 {
+	.back-to-top {
+		display: none;
+	}
+}
+>>>>>>> working

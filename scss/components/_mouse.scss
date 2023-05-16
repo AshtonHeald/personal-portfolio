@@ -1,0 +1,32 @@
+.mouse-shape {
+	box-sizing: content-box;
+	height: 28px;
+	margin: 0 auto;
+	padding: 5px 11px;
+	width: 3px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	opacity: 0.8;
+	.mouse-wheel {
+		height: 10px;
+		width: 3px;
+		background-color: var(--color-secondary-surface);
+		border-radius: 25%;
+	}
+}
+.mouse-wheel {
+	-webkit-animation-duration: 1.3s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: scrollDown;
+	-webkit-animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+	animation-name: scrollDown;
+	animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+}
+@media (prefers-reduced-motion) {
+	/* Mouse scroll effect */
+	.mouse-wheel {
+		animation: none;
+	}
+}

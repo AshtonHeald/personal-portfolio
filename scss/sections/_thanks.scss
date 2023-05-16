@@ -3,6 +3,7 @@
 	display: grid;
 	place-items: center;
 	height: 100vh;
+<<<<<<< HEAD
 }
 .main {
 	background-image: url(../img/ash-blue-thanks.png);
@@ -21,13 +22,42 @@
 		box-shadow: var(--shadow);
 		height: 425px;
 		padding: 50px;
+=======
+	background-color: var(--color-secondary);
+	@include media-2 {
+		background-color: unset;
+	}
+}
+.main {
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	background-image: url(../img/ash-thanks.webp);
+	background-position: bottom 45px center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	@include media-2 {
+		background-position: bottom 75px center;
+		background-size: 75%;
+		background-color: var(--color-secondary);
+		padding: 30px;
+		box-shadow: var(--shadow);
+		border-radius: 12px;
+		height: 425px;
+>>>>>>> working
 	}
 	div {
 		display: grid;
 		place-items: center;
 		span {
+<<<<<<< HEAD
 			align-items: baseline;
 			display: flex;
+=======
+			display: flex;
+			align-items: baseline;
+>>>>>>> working
 			h1 {
 				margin-right: 5px;
 				@include media-2 {
@@ -36,6 +66,7 @@
 			}
 		}
 		a {
+<<<<<<< HEAD
 			align-items: baseline;
 			background-color: var(--color-secondary-surface);
 			border: 2px solid var(--color-primary);
@@ -49,6 +80,24 @@
 			span {
 				margin: 0 5px;
 			}
+=======
+			font-size: 16px;
+			display: flex;
+			align-items: baseline;
+			border: 2px solid var(--color-primary);
+			padding: 10px 25px;
+			border-radius: 8px;
+			background-color: var(--color-secondary-surface);
+			i {
+				font-size: 14px;
+			}
+			p {
+				margin-left: 4px;
+			}
+			&:focus {
+				border-color: var(--color-tertiary);
+			}
+>>>>>>> working
 		}
 	}
 }

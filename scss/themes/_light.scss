@@ -1,0 +1,26 @@
+/* Accesibility Level AA 4.5:1 */
+:root {
+	--color-primary: hsl(0, 0%, 4%);
+	--color-primary-2: hsl(0, 0%, 40%);
+	/* ----- */
+	--color-secondary: hsl(0, 0%, 100%);
+	--color-secondary-2: hsl(0, 0%, 98%);
+	--color-secondary-3: hsl(0, 0%, 96%);
+	--color-secondary-4: hsl(0, 0%, 94%);
+	--color-secondary-surface: hsl(0, 0%, 100%);
+	/* ----- */
+	--color-tertiary: hsl(331, 100%, 60%);
+	/* ----- */
+	--color-accent: hsl(0, 0%, 90%);
+	--color-accent-2: hsl(0, 0%, 90%);
+	/* ------ */
+	--color-overlay: hsla(0, 0%, 4%, 90%);
+	--color-overlay-2: hsla(0, 0%, 4%, 70%);
+	/* ----- */
+	--filter-color-primary: invert(0%) sepia(25%) saturate(6799%) hue-rotate(111deg) brightness(72%) contrast(92%);
+	--filter-color-tertiary: invert(10%) sepia(100%) saturate(6059%) hue-rotate(323deg) brightness(94%) contrast(100%);
+	/* shadows ----- */
+	--shadow: hsla(0, 0%, 4%, 0.25) 0px 4px 6px -2px, hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+	--shadow-hover: hsla(0, 0%, 4%, 0.25) 0px 5px 7px -2px, hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+	--pressed: hsla(0, 0%, 4%, 0.25) 0px 2px 4px -2px, hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+}

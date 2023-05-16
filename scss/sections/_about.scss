@@ -1,4 +1,5 @@
 @use "../abstracts/breakpoints" as *;
+<<<<<<< HEAD
 #about {
 	display: flex;
 	flex-direction: column-reverse;
@@ -26,6 +27,26 @@
 			&:last-of-type {
 				margin-bottom: 20px;
 			}
+=======
+#about-content {
+	@include media-3 {
+		display: flex;
+	}
+	#about-content-container {
+		@include media-3 {
+			flex: 0 0 65%;
+		}
+		p {
+			padding-bottom: 20px;
+			border-bottom: solid 1px var(--color-accent);
+		}
+	}
+	.about-model {
+		width: 100%;
+		model-viewer {
+			width: 100%;
+			height: 100%;
+>>>>>>> working
 		}
 	}
 	@include media-1 {
@@ -38,4 +59,15 @@
 			padding-right: 40px;
 		}
 	}
+}
+.tech-icons {
+	display: flex;
+	.tech-icon {
+		margin-left: 6px;
+		max-width: 26px;
+		max-height: 26px;
+	}
+}
+.info.mb-4 {
+	display: flex;
 }
