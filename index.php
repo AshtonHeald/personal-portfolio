@@ -23,14 +23,14 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Ashton Heald - Web Portfolio">
 	<meta property="og:description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
-	<meta property="og:image" content="https://ashthe.dev/assets/img/meta-card.png">
+	<meta property="og:image" content="https://ashthe.dev/assets/img/meta-card.webp">
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="twitter:domain" content="ashthe.dev">
 	<meta property="twitter:url" content="https://ashthe.dev/">
 	<meta name="twitter:title" content="Ashton Heald - Web Portfolio">
 	<meta name="twitter:description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
-	<meta name="twitter:image" content="https://ashthe.dev/assets/img/meta-card.png">
+	<meta name="twitter:image" content="https://ashthe.dev/assets/img/meta-card.webp">
 	<!-- styles -->
 	<link rel="preload" href="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" as="script">
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
