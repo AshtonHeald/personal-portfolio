@@ -1,105 +1,78 @@
 @use "../abstracts/breakpoints" as *;
 
 html {
-  line-height: 1.2;
-  scroll-behavior: smooth;
+	line-height: 1.2;
+	scroll-behavior: smooth;
 }
 body {
-  background-color: var(--color-secondary-4);
-  color: var(--color-primary);
+	background-color: var(--color-secondary-4);
+	color: var(--color-primary);
 }
 img {
-  image-rendering: -webkit-optimize-contrast;
+	image-rendering: -webkit-optimize-contrast;
 }
-
-#resume i {
-  margin-right: 5px;
+svg {
+	width: 22px;
 }
-#resume {
-  #site-container {
-    background-color: var(--color-secondary);
-    max-width: 768px;
-    section {
-      padding: 20px;
-      &:first-of-type {
-        padding: 20px 15px;
-      }
-    }
-  }
+.link svg {
+	width: 26px;
+	height: 26px;
+	margin-right: 5px;
 }
 #portfolio {
-  section {
-    background-color: var(--color-secondary-3);
-    padding: 50px 15px;
-    &:nth-of-type(2n) {
-      background-color: var(--color-secondary-2);
-    }
-  }
+	section {
+		background-color: var(--color-secondary-3);
+		padding: 50px 15px;
+		&:nth-of-type(2n) {
+			background-color: var(--color-secondary-2);
+		}
+	}
 }
 
 @include media-1 {
-  #portfolio section {
-    padding: 50px 20px;
-  }
+	#portfolio section {
+		padding: 50px 20px;
+	}
 }
 @include media-2 {
-  #portfolio section {
-    padding: 5rem 2.5rem;
-  }
+	#portfolio section {
+		padding: 5rem 2.5rem;
+	}
 }
 @include media-3 {
-  #portfolio section {
-    padding: 50px 30px;
-  }
-  #resume {
-    display: grid;
-    place-content: center;
-    overflow: hidden;
-    height: 100vh;
-    #site-container {
-      margin: 10px 0;
-      max-width: 748px;
-      overflow: scroll;
-      overflow-x: auto;
-      position: relative;
-      padding: 20px;
-      box-shadow: var(--shadow);
-      scroll-behavior: smooth;
-      padding: 10px;
-      border: 10px solid var(--color-secondary);
-      border-radius: 12px;
-    }
-  }
+	#portfolio section {
+		padding: 50px 30px;
+	}
 }
 @include media-4 {
-  #portfolio section {
-    margin-left: 256px;
-    padding: 20px 30px 30px;
-  }
+	#portfolio section {
+		margin-left: 256px;
+		padding: 20px 30px 30px;
+	}
 }
 @include media-5 {
-  #portfolio section {
-    margin-right: 256px;
-  }
+	#portfolio section {
+		margin-right: 256px;
+	}
 }
 @include media-6 {
-  #portfolio {
-    display: grid;
-    place-content: center;
-    overflow: hidden;
-    height: 100vh;
-    #site-container {
-      height: 844px; /* rounded up 843.75*/
-      margin-bottom: auto;
-      max-width: 1500px;
-      overflow: scroll;
-      overflow-x: auto;
-      position: relative;
-      border: solid 10px var(--color-secondary);
-      border-radius: 12px;
-      box-shadow: var(--shadow);
-      scroll-behavior: smooth;
-      background-color: var(--color-secondary);
-    }
-  }
+	#portfolio {
+		display: grid;
+		place-content: center;
+		overflow: hidden;
+		height: 100vh;
+		#site-container {
+			height: 844px; /* rounded up 843.75*/
+			margin-bottom: auto;
+			max-width: 1500px;
+			overflow: scroll;
+			overflow-x: auto;
+			position: relative;
+			border: solid 10px var(--color-secondary);
+			border-radius: 12px;
+			box-shadow: var(--shadow);
+			scroll-behavior: smooth;
+			background-color: var(--color-secondary);
+		}
+	}
 }

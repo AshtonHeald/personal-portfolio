@@ -1,32 +1,28 @@
 @media (prefers-color-scheme: dark) {
-  :root {
-    --color-primary: hsl(0, 0%, 96%);
-    --color-primary-2: hsl(0, 0%, 70%);
-    /* ----- */
-    --color-secondary: hsl(0, 0%, 10%);
-    --color-secondary-2: hsl(0, 0%, 12.5%);
-    --color-secondary-3: hsl(0, 0%, 15%);
-    --color-secondary-4: hsl(0, 0%, 20%);
-    --color-secondary-surface: hsl(0, 0%, 20%);
-    /* ----- */
-    --color-tertiary: hsl(330, 100%, 70%);
-    --color-tertiary-2: hsl(330, 100%, 75%);
-    /* ----- */
-    --color-accent: hsl(0, 0%, 30%);
-    --color-accent-2: hsl(0, 0%, 17.5%);
-    /* ------ */
-    --color-overlay: hsla(0, 0%, 4%, 90%);
-    --color-overlay-2: hsla(0, 0%, 4%, 70%);
-    /* ----- */
-    --filter-color-primary: invert(100%) sepia(0%) saturate(7494%) hue-rotate(112deg) brightness(116%) contrast(108%);
-    --filter-color-tertiary: invert(55%) sepia(63%) saturate(998%) hue-rotate(295deg) brightness(100%) contrast(103%);
+	:root {
+		--color-primary: hsl(0, 0%, 96%);
+		--color-primary-2: hsl(0, 0%, 70%);
+		/* ----- */
+		--color-secondary: hsl(0, 0%, 10%);
+		--color-secondary-2: hsl(0, 0%, 12.5%);
+		--color-secondary-3: hsl(0, 0%, 15%);
+		--color-secondary-4: hsl(0, 0%, 20%);
+		--color-secondary-surface: hsl(0, 0%, 20%);
+		/* ----- */
+		--color-tertiary: hsl(330, 100%, 73%);
+		/* ----- */
+		--color-accent: hsl(0, 0%, 30%);
+		--color-accent-2: hsl(0, 0%, 17.5%);
+		/* ------ */
+		--color-overlay: hsla(0, 0%, 4%, 90%);
+		--color-overlay-2: hsla(0, 0%, 4%, 70%);
+		/* ----- */
+		--filter-color-primary: invert(100%) sepia(0%) saturate(7494%) hue-rotate(112deg) brightness(116%) contrast(108%);
+		--filter-color-tertiary: invert(55%) sepia(63%) saturate(998%) hue-rotate(295deg) brightness(100%) contrast(103%);
 
-    /* Shadows --- ---------- ---------- ---------- */
-    --shadow: hsla(0, 0%, 4%, 0.25) 0px 4px 6px -2px,
-      hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
-    --shadow-hover: hsla(0, 0%, 4%, 0.25) 0px 5px 7px -2px,
-      hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
-    --pressed: hsla(0, 0%, 4%, 0.25) 0px 2px 4px -2px,
-      hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
-  }
+		/* Shadows --- ---------- ---------- ---------- */
+		--shadow: hsla(0, 0%, 4%, 0.25) 0px 4px 6px -2px, hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+		--shadow-hover: hsla(0, 0%, 4%, 0.25) 0px 5px 7px -2px, hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+		--pressed: hsla(0, 0%, 4%, 0.25) 0px 2px 4px -2px, hsla(0, 0%, 4%, 0.08) 0px 0px 0px 1px;
+	}
 }

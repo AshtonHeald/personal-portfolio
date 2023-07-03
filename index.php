@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="noindex, nofollow" />
 	<title>Ashton Heald - Web Portfolio</title>
 	<meta name="description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
 	<meta name="keywords" content="Ashton, Heald, front-end, web dev">
@@ -32,10 +31,12 @@
 	<meta name="twitter:description" content="I'm Ash, a front-end web developer, an introverted writer, and an abstract thinker. This is my web portfolio!">
 	<meta name="twitter:image" content="https://ashthe.dev/assets/img/meta-card.webp">
 	<!-- styles -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="preload" href="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" as="script">
 	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 	<link rel="preload" as="image" href="assets/img/ash-smile.png">
-	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 

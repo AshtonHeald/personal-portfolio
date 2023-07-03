@@ -34,7 +34,7 @@
 						</div>
 					</div>
 					<div class="btn-group" id="about-buttons">
-						<a class="btn" title="View Digital Resume" href="digital-resume">Resumé</a>
+						<a class="btn" title="View Digital Resume" href="/assets/ashtonheald-resume.pdf" target="_blank">Resumé</a>
 						<button class="btn alt" title="Scroll Down" onclick="location.href='#projects';">My Work</button>
 					</div>
 				</div>

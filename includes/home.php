@@ -5,7 +5,7 @@
 			I'm a <span class="dev-h highlight">Web Artisan</span><span class="highlight typewriter"></span>
 		</span>
 		<div class="home-mouse">
-			<a href="#about" data-scroll="">
+			<a href="#about" data-scroll="" aria-label="Scroll down">
 				<div class="arrow-down">
 					<i class="fa-sharp fa-solid fa-angle-down"></i>
 				</div>
