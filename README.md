@@ -17,4 +17,4 @@
 <h2>About The Project</h2>
 
 <p> 
-My developer portfolio for shocasing my skills and projects. Features include, 3D model rendering using model-viewer library, interactive carousel using GlideJS library, and Form Validation using formsubmit.co. Other native features include modals, type writer effects, hover effects, native dark mode and responsive design.
+My developer portfolio for shocasing my skills and projects. Features include 3D model rendering using model-viewer library, interactive carousel using GlideJS library, and Form Validation using formsubmit.co. Other native features include modals, type writer effects, hover effects, native dark mode, and responsive design.
