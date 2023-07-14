@@ -50,7 +50,7 @@
 	position: absolute;
 	transform: translateX(-50%);
 	.glide__bullet {
-		background-color: var(--color-secondary-surface);
+		background-color: var(--color-surface-4);
 		border: 2px solid transparent;
 		border-radius: 50%;
 		box-shadow: var(--shadow);
@@ -64,11 +64,11 @@
 			outline: none;
 		}
 		&:hover {
-			background-color: var(--color-tertiary);
+			background-color: var(--color-link);
 		}
 	}
 	.glide__bullet--active {
-		background-color: var(--color-tertiary);
+		background-color: var(--color-highlight);
 	}
 }
 

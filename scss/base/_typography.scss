@@ -64,11 +64,11 @@ h6 {
 	color: var(--color-primary);
 	&:hover,
 	&:focus {
-		color: var(--color-tertiary);
+		color: var(--color-link);
 	}
 }
 .highlight {
-	color: var(--color-tertiary);
+	color: var(--color-highlight);
 }
 // ------------------------------------
 a span {
@@ -83,7 +83,7 @@ a span {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: var(--color-tertiary);
+	background-color: var(--color-highlight);
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
@@ -91,7 +91,7 @@ a span {
 .link:focus span:after {
 	transform: scaleX(1);
 	transform-origin: bottom left;
-	color: var(--color-tertiary);
+	background-color: var(--color-link);
 }
 a .icon {
 	margin-right: 5px;
@@ -100,13 +100,6 @@ a .icon {
 	font-weight: 600;
 }
 // ------------------------------------------
-i {
-	color: var(--color-primary);
-	font-size: 1.625rem;
-}
-.btn i {
-	font-size: 1.25rem;
-}
 #thanks {
 	span {
 		h1 {
@@ -114,7 +107,7 @@ i {
 				font-size: 2.369rem;
 			}
 		}
-		i {
+		svg {
 			font-size: 1.728rem;
 			color: var(--color-tertiary);
 			@include media-2 {

@@ -5,7 +5,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background-color: var(--color-secondary-4);
+	background-color: var(--color-surface-2);
 	color: var(--color-primary);
 }
 img {
@@ -13,6 +13,7 @@ img {
 }
 svg {
 	width: 22px;
+	fill: var(--color-primary);
 }
 .link svg {
 	width: 26px;
@@ -21,14 +22,13 @@ svg {
 }
 #portfolio {
 	section {
-		background-color: var(--color-secondary-3);
+		background-color: var(--color-surface-3);
 		padding: 50px 15px;
 		&:nth-of-type(2n) {
-			background-color: var(--color-secondary-2);
+			background-color: var(--color-surface-2);
 		}
 	}
 }
-
 @include media-1 {
 	#portfolio section {
 		padding: 50px 20px;
@@ -68,11 +68,11 @@ svg {
 			overflow: scroll;
 			overflow-x: auto;
 			position: relative;
-			border: solid 10px var(--color-secondary);
+			border: solid 10px var(--color-surface);
 			border-radius: 12px;
 			box-shadow: var(--shadow);
 			scroll-behavior: smooth;
-			background-color: var(--color-secondary);
+			background-color: var(--color-surface);
 		}
 	}
 }

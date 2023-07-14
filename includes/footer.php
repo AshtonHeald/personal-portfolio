@@ -3,7 +3,12 @@
 	<div class="footer-container">
 		<div id="designed">
 			<span>Designed & Developed&nbsp;</span>
-			<span>by <a class="highlight" href="https://github.com/AshtonHeald/Portfolio">Ashton Heald</a></span>
+			<span>by <a class="link highlight" href="https://github.com/AshtonHeald/Portfolio">
+					<span>Ashton Heald</span>
+				</a></span>
+
+
+
 		</div>
 	</div>
 	<div class="back-to-top">

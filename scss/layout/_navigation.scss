@@ -6,7 +6,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 2;
-		background-color: var(--color-secondary);
+		background-color: var(--color-surface);
 		#logo {
 			font-size: 20px;
 			font-weight: bold;
@@ -14,7 +14,7 @@
 			top: 10px;
 			left: 15px;
 			&:hover {
-				color: var(--color-tertiary);
+				color: var(--color-link);
 			}
 		}
 		@include media-4 {
@@ -34,7 +34,7 @@
 		#toggle {
 			display: none;
 			height: calc(100vh - 50px);
-			background-color: var(--color-secondary);
+			background-color: var(--color-surface);
 			#nav-header {
 				display: flex;
 				flex-direction: column;
@@ -47,7 +47,7 @@
 					padding: 3px 0 10px;
 					text-align: center;
 					width: 160px;
-					border-bottom: 1px solid var(--color-accent);
+					border-bottom: 1px solid var(--color-surface-4);
 				}
 			}
 			nav {
@@ -87,7 +87,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
-		filter: var(--filter-color-primary);
+		filter: var(--filter-color);
 	}
 
 	#menu-toggle + #menu-toggle-button:hover,

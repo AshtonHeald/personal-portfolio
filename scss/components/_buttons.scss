@@ -1,6 +1,6 @@
 @use "../abstracts/breakpoints" as *;
 .btn {
-	background-color: var(--color-tertiary);
+	background-color: var(--color-link);
 	border-radius: 90px;
 	box-shadow: var(--shadow);
 	padding: 8px;
@@ -11,9 +11,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	i {
-		color: var(--color-secondary);
-	}
 	@include media-2 {
 		width: 200px;
 	}
@@ -31,15 +28,18 @@
 	display: flex;
 	.btn.alt {
 		margin-left: 10px;
-		background-color: var(--color-secondary-surface);
+		background-color: var(--color-surface-4);
 		color: var(--color-primary);
-		i {
-			color: var(--color-primary);
-		}
+		border: 3px solid var(--color-link);
 	}
 }
 @include media-5 {
 	.back-to-top {
 		display: none;
+	}
+}
+button:hover {
+	svg {
+		fill: var(--color-link);
 	}
 }
