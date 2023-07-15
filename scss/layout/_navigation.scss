@@ -1,18 +1,18 @@
 @use "../abstracts/breakpoints" as *;
 #portfolio {
 	#navigation {
+		background-color: var(--color-surface);
 		height: 50px;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: 2;
-		background-color: var(--color-surface);
 		#logo {
 			font-size: 20px;
 			font-weight: bold;
+			left: 15px;
 			position: absolute;
 			top: 10px;
-			left: 15px;
 			&:hover {
 				color: var(--color-link);
 			}
@@ -32,9 +32,9 @@
 			}
 		}
 		#toggle {
+			background-color: var(--color-surface);
 			display: none;
 			height: calc(100vh - 50px);
-			background-color: var(--color-surface);
 			#nav-header {
 				display: flex;
 				flex-direction: column;
@@ -43,11 +43,11 @@
 					margin: 40px auto 15px;
 				}
 				#status {
+					border-bottom: 1px solid var(--color-surface-4);
 					margin: 0 auto 8px;
 					padding: 3px 0 10px;
 					text-align: center;
 					width: 160px;
-					border-bottom: 1px solid var(--color-surface-4);
 				}
 			}
 			nav {
@@ -57,13 +57,13 @@
 					height: 100%;
 					.nav-link {
 						display: block;
-						padding: 10px;
 						margin: 0 auto;
-						width: 160px;
+						padding: 10px;
 						text-align: center;
+						width: 160px;
 					}
 					.menu-footer {
-						align-items: baseline;
+						align-items: flex-start;
 						justify-content: center;
 						margin-top: auto;
 						padding: 12px;
@@ -79,24 +79,23 @@
 		overflow: hidden;
 	}
 	#menu-toggle + label {
-		display: block;
-		height: 25px;
-		margin: 12.5px 15px 12.5px auto;
-		width: 25px;
-		background-image: url(../img/icons/bars.svg);
+		background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20448%20512%22%3E%3Cpath%20d%3D%22M442%20114H6a6%206%200%200%201-6-6V84a6%206%200%200%201%206-6h436a6%206%200%200%201%206%206v24a6%206%200%200%201-6%206zm0%20160H6a6%206%200%200%201-6-6v-24a6%206%200%200%201%206-6h436a6%206%200%200%201%206%206v24a6%206%200%200%201-6%206zm0%20160H6a6%206%200%200%201-6-6v-24a6%206%200%200%201%206-6h436a6%206%200%200%201%206%206v24a6%206%200%200%201-6%206z%22%2F%3E%3C%2Fsvg%3E");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
-		filter: var(--filter-color);
+		display: block;
+		filter: invert(100%) sepia(69%) saturate(34%) hue-rotate(355deg) brightness(115%) contrast(92%);
+		height: 25px;
+		margin: 12.5px 15px 12.5px auto;
+		width: 25px;
 	}
 
 	#menu-toggle + #menu-toggle-button:hover,
 	#menu-toggle + label:hover {
 		cursor: pointer;
-		filter: var(--filter-color-tertiary);
 	}
 	#menu-toggle:checked + label {
-		background-image: url(../img/icons/times.svg);
+		background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20512%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M193.94%20256L296.5%20153.44l21.15-21.15c3.12-3.12%203.12-8.19%200-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31%200L160%20222.06%2036.29%2098.34c-3.12-3.12-8.19-3.12-11.31%200L2.34%20120.97c-3.12%203.12-3.12%208.19%200%2011.31L126.06%20256%202.34%20379.71c-3.12%203.12-3.12%208.19%200%2011.31l22.63%2022.63c3.12%203.12%208.19%203.12%2011.31%200L160%20289.94%20262.56%20392.5l21.15%2021.15c3.12%203.12%208.19%203.12%2011.31%200l22.63-22.63c3.12-3.12%203.12-8.19%200-11.31L193.94%20256z%22%20%2F%3E%0A%3C%2Fsvg%3E");
 	}
 	#nav-icon,
 	#sidebar-avatar {

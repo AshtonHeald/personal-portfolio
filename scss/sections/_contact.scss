@@ -13,11 +13,11 @@
 	// Contact Column 2 - Menus
 	.contact-column-2 {
 		@include media-3 {
-			width: 100%;
 			display: flex;
 			flex: 0 0 25%;
 			flex-direction: column;
 			justify-content: space-between;
+			width: 100%;
 		}
 		@include media-5 {
 			display: none;

@@ -1,16 +1,16 @@
 @use "../abstracts/breakpoints" as *;
 .btn {
+	align-items: center;
 	background-color: var(--color-link);
 	border-radius: 90px;
 	box-shadow: var(--shadow);
+	color: var(--color-secondary);
+	display: flex;
+	font-weight: 600;
+	justify-content: center;
 	padding: 8px;
 	text-align: center;
 	width: 150px;
-	color: var(--color-secondary);
-	font-weight: 600;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	@include media-2 {
 		width: 200px;
 	}
@@ -21,16 +21,16 @@
 		box-shadow: var(--shadow-hover);
 	}
 	&:active {
-		box-shadow: var(--pressed);
+		transform: translateY(2px);
 	}
 }
 .btn-group {
 	display: flex;
-	.btn.alt {
-		margin-left: 10px;
+	.btn[btn-secondary] {
 		background-color: var(--color-surface-4);
-		color: var(--color-primary);
 		border: 3px solid var(--color-link);
+		color: var(--color-primary);
+		margin-left: 10px;
 	}
 }
 @include media-5 {

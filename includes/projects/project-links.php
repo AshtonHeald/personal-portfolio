@@ -7,7 +7,7 @@
 			<div class="project-titles">
 				<h3 class="h4 modal-title">Links</h3>
 				<a class="link" href="https://ashtonheald.me">
-					<span class="highlight">ashtonheald.me</span>
+					<span class="link highlight">ashtonheald.me</span>
 				</a>
 			</div>
 			<div class="row">
@@ -24,12 +24,12 @@
 						<img class="tech-icon" src="assets/img/icons/npm.svg" alt="">
 						<img class="tech-icon" src="assets/img/icons/vite.svg" alt="">
 					</div>
-					<div class="btn-group project-btns">
-						<a href="https://github.com/AshtonHeald/links" target=" _blank" rel="noopener noreferrer" class="btn" title="View Code">
+					<div class="btn-group">
+						<a href="https://github.com/AshtonHeald/links" target=" _blank" class="btn" btn-primary title="View Code">
 							<span>Code</span>
 							<i class="fa-brands fa-github"></i>
 						</a>
-						<a href="https://ashtonheald.me" class="btn alt" title="Live Demo">
+						<a href="https://ashtonheald.me" class="btn" btn-secondary title="Live Demo">
 							<span>Live Demo</span>
 							<i class="fa-solid fa-arrow-up-right-from-square"></i>
 						</a>

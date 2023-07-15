@@ -4,18 +4,18 @@
 		width: 100%;
 	}
 	@include media-5 {
-		width: 200px;
 		text-align: center;
+		width: 200px;
 	}
 }
 .contact-menu {
+	background-color: var(--color-surface-4);
+	border-radius: 12px;
+	box-shadow: var(--shadow);
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 10px;
-	background-color: var(--color-secondary-surface);
 	padding: 8px 12px;
-	border-radius: 12px;
-	box-shadow: var(--shadow);
 	@include media-1 {
 		flex-wrap: nowrap;
 	}

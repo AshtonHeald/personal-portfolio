@@ -7,7 +7,7 @@
 			<div class="project-titles">
 				<h3 class="h4 modal-title">Ethereum.org (Mockup)</h3>
 				<a class="link" href="https://start.ashthe.dev/ethereum.org">
-					<span class="highlight">start.ashthe.dev/ethereum.org</span>
+					<span class="link highlight">start.ashthe.dev/ethereum.org</span>
 				</a>
 			</div>
 			<div class="row">
@@ -25,14 +25,12 @@
 						<img class="tech-icon" src="assets/img/icons/bootstrap.svg" alt="">
 						<img class="tech-icon" src="assets/img/icons/sass.svg" alt="">
 					</div>
-					<div class="btn-group project-btns">
-						<a href="https://github.com/AshtonHeald/ethereum.org" target=" _blank" rel="noopener noreferrer" class="btn" title="View Code">
+					<div class="btn-group">
+						<a href="https://github.com/AshtonHeald/ethereum.org" target=" _blank" class="btn" btn-primary title="View Code">
 							<span>Code</span>
-							<i class="fa-brands fa-github"></i>
 						</a>
-						<a href="https://start.ashthe.dev/ethereum.org" class="btn alt" title="Live Demo">
+						<a href="https://start.ashthe.dev/ethereum.org" class="btn" btn-secondary title="Live Demo">
 							<span>Live Demo</span>
-							<i class="fa-solid fa-arrow-up-right-from-square"></i>
 						</a>
 					</div>
 				</div>

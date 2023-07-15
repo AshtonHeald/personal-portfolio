@@ -7,7 +7,7 @@
             <div class="project-titles">
                 <h3 class="h4 modal-title">The Ash Café </h3>
                 <a class="link" href="https://ash.cafe/">
-                    <span class="highlight">ash.cafe</span>
+                    <span class="link highlight">ash.cafe</span>
                 </a>
             </div>
             <div class="row">
@@ -21,10 +21,9 @@
                     <div class="technology-icons">
                         <img class="tech-icon" src="assets/img/icons/wordpress.svg" alt="">
                     </div>
-                    <div class="btn-group project-btns">
-                        <a href="https://ash.cafe/" class="btn alt" title="Live Demo">
+                    <div class="btn-group">
+                        <a href="https://ash.cafe/" class="btn" btn-secondary title="Live Demo">
                             <span>Live Demo</span>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
                     </div>
                 </div>

@@ -2,24 +2,24 @@
 .sidebar {
 	display: none;
 	@include media-5 {
+		align-items: center;
+		background-color: var(--color-surface);
 		display: flex;
 		flex-direction: column;
 		float: right;
 		height: calc(100vh - 0px); /* this kinda sketchy */
-		position: -webkit-sticky;
+		padding-top: 45px;
 		position: sticky;
+		position: -webkit-sticky;
 		top: 0;
 		width: 256px;
-		padding-top: 45px;
-		background-color: var(--color-surface);
-		align-items: center;
 		.sidebar-footer {
 			display: flex;
-			justify-content: center;
 			height: 100%;
+			justify-content: center;
 			#mySideBtn {
-				display: flex;
 				align-items: center;
+				display: flex;
 				margin-top: auto;
 				padding: 12px;
 				&:hover {

@@ -142,14 +142,14 @@
 		opacity: 0;
 	}
 	10% {
-		-webkit-transform: translateY(0);
 		opacity: 1;
 		transform: translateY(0);
+		-webkit-transform: translateY(0);
 	}
 	100% {
-		-webkit-transform: translateY(15px);
 		opacity: 0;
 		transform: translateY(15px);
+		-webkit-transform: translateY(15px);
 	}
 }
 @keyframes scrollDown {
@@ -157,14 +157,14 @@
 		opacity: 0;
 	}
 	10% {
-		-webkit-transform: translateY(0);
 		opacity: 1;
 		transform: translateY(0);
+		-webkit-transform: translateY(0);
 	}
 	100% {
-		-webkit-transform: translateY(15px);
 		opacity: 0;
 		transform: translateY(15px);
+		-webkit-transform: translateY(15px);
 	}
 }
 /* Prefers-reduced-motion */

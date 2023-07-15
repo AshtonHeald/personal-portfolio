@@ -1,53 +1,53 @@
 @use "../abstracts/breakpoints" as *;
 #thanks #site-container {
+	background-color: var(--color-secondary);
 	display: grid;
 	place-items: center;
 	height: 100vh;
-	background-color: var(--color-secondary);
 	@include media-2 {
 		background-color: unset;
 	}
 }
 .main {
-	height: 400px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
 	background-image: url(../img/ash-thanks.webp);
 	background-position: bottom 45px center;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	justify-content: space-between;
 	@include media-2 {
+		background-color: var(--color-secondary);
 		background-position: bottom 75px center;
 		background-size: 75%;
-		background-color: var(--color-secondary);
-		padding: 30px;
-		box-shadow: var(--shadow);
 		border-radius: 12px;
+		box-shadow: var(--shadow);
 		height: 425px;
+		padding: 30px;
 	}
 	div {
 		display: grid;
 		place-items: center;
 		span {
-			display: flex;
 			align-items: center;
+			display: flex;
 			h1 {
-				margin-right: 5px;
 				color: var(--color-highlight);
+				margin-right: 5px;
 				@include media-2 {
 					margin-right: 10px;
 				}
 			}
 		}
 		a {
-			font-size: 16px;
-			display: flex;
 			align-items: center;
-			border: 3px solid var(--color-link);
-			padding: 10px 25px;
-			border-radius: 8px;
 			background-color: var(--color-secondary-surface);
+			border: 3px solid var(--color-link);
+			border-radius: 8px;
+			display: flex;
+			font-size: 16px;
+			padding: 10px 25px;
 			p {
 				margin-left: 4px;
 			}

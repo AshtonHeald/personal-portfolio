@@ -6,14 +6,14 @@
 	border-radius: 50%;
 	display: block;
 	&.small {
+		background-size: 100px;
 		height: 100px;
 		width: 100px;
-		background-size: 100px;
 	}
 	&.large {
+		background-size: 130px;
 		height: 128px;
 		width: 128px;
-		background-size: 130px;
 	}
 	&:hover,
 	&:focus {

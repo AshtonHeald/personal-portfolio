@@ -12,13 +12,13 @@ img {
 	image-rendering: -webkit-optimize-contrast;
 }
 svg {
-	width: 22px;
 	fill: var(--color-primary);
+	width: 22px;
 }
 .link svg {
-	width: 26px;
 	height: 26px;
 	margin-right: 5px;
+	width: 26px;
 }
 #portfolio {
 	section {
@@ -58,21 +58,21 @@ svg {
 @include media-6 {
 	#portfolio {
 		display: grid;
-		place-content: center;
-		overflow: hidden;
 		height: 100vh;
+		overflow: hidden;
+		place-content: center;
 		#site-container {
+			background-color: var(--color-surface);
+			border: solid 10px var(--color-surface);
+			border-radius: 12px;
+			box-shadow: var(--shadow);
 			height: 844px; /* rounded up 843.75*/
 			margin-bottom: auto;
 			max-width: 1500px;
 			overflow: scroll;
 			overflow-x: auto;
 			position: relative;
-			border: solid 10px var(--color-surface);
-			border-radius: 12px;
-			box-shadow: var(--shadow);
 			scroll-behavior: smooth;
-			background-color: var(--color-surface);
 		}
 	}
 }

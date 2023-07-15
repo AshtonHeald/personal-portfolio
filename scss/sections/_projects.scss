@@ -8,46 +8,46 @@
 		&:hover,
 		&:focus {
 			img {
-				outline: 3px solid var(--color-link);
+				outline: 2px solid var(--color-link);
 			}
 		}
 	}
 	img {
-		width: calc(100% - 4px);
+		border-radius: 12px;
 		height: calc(98% - 4px);
 		margin-top: 2px;
-		border-radius: 12px;
+		width: calc(100% - 4px);
 	}
 }
 .project-container {
 	.project-image {
 		margin-bottom: 15px;
 		img {
-			width: 100%;
 			height: 98%;
+			width: 100%;
 		}
 	}
 	.project-titles,
 	.description {
-		text-align: center;
 		margin-bottom: 15px;
+		text-align: center;
 	}
 	.technology-icons {
-		margin-bottom: 15px;
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: center;
+		margin-bottom: 15px;
 		.tech-icon {
+			margin: 0 3px;
 			max-width: 26px;
 			max-height: 26px;
-			margin: 0 3px;
 		}
 		.special {
-			max-width: 52px;
 			margin: 0;
+			max-width: 52px;
 		}
 	}
-}
-.project-btns {
-	justify-content: center;
+	.btn-group {
+		justify-content: center;
+	}
 }

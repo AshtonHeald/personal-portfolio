@@ -77,21 +77,21 @@ a span {
 }
 .link span:after {
 	content: "";
-	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
-	bottom: 0;
-	left: 0;
 	background-color: var(--color-highlight);
+	bottom: 0;
+	height: 2px;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
+	width: 100%;
 }
 .link:hover span:after,
 .link:focus span:after {
+	background-color: var(--color-link);
 	transform: scaleX(1);
 	transform-origin: bottom left;
-	background-color: var(--color-link);
 }
 a .icon {
 	margin-right: 5px;
@@ -108,8 +108,8 @@ a .icon {
 			}
 		}
 		svg {
-			font-size: 1.728rem;
 			color: var(--color-tertiary);
+			font-size: 1.728rem;
 			@include media-2 {
 				font-size: 2.369rem;
 			}
