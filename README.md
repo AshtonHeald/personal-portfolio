@@ -3,7 +3,7 @@
 
 <p align="center">
 <img width="70%" src="https://raw.githubusercontent.com/AshtonHeald/Portfolio/main/assets/img/meta-card.webp">
-<p/>
+</p>
 
 <h3 align="center">Technology Used</h3>
 <p align='center'>
